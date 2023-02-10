@@ -13,9 +13,9 @@ import github from './assets/images/github.svg';
 function App() {
   return (
   <div className=' h-screen-500 grid place-items-center justify-center'>
-      <div className=' grid grid-cols-3 gap-16 mt-10'>
+      <div className=' grid grid-cols-3 gap-12 mt-10'>
         <button type='button' className='active:scale-[.98] active:duration-75 hover:scale-[1.01] ease-in-out transition- 
-         all px-16 py-3 rounded-xl  bg-blue-700 text-white text-lg font-bold'> 
+         all px-4 py-3 rounded-xl  bg-blue-700 text-white text-lg font-bold'> 
           <a href='#Seccion1'>Skills</a>
           </button>
          <button type='button' className='active:scale-[.98] active:duration-75 hover:scale-[1.01] ease-in-out transition- 
