@@ -15,12 +15,12 @@ function App() {
   <div className=' h-screen-500 grid place-items-center justify-center'>
       <div className=' grid grid-cols-3 gap-16 mt-10'>
         <button type='button' className='active:scale-[.98] active:duration-75 hover:scale-[1.01] ease-in-out transition- 
-         all px-10 py-3 rounded-xl  bg-blue-700 text-white text-lg font-bold'> 
-          <a href='#Seccion1'>Skill</a>
+         all px-16 py-3 rounded-xl  bg-blue-700 text-white text-lg font-bold'> 
+          <a href='#Seccion1'>Skills</a>
           </button>
          <button type='button' className='active:scale-[.98] active:duration-75 hover:scale-[1.01] ease-in-out transition- 
           all py-3 rounded-xl  bg-blue-700 text-white text-lg font-bold'> 
-          <a href='#Seccion2'>Proyect</a> 
+          <a href='#Seccion2'>Proyects</a> 
          </button>
          <button type='button' className='active:scale-[.98] active:duration-75 hover:scale-[1.01] ease-in-out transition- 
           all py-3 rounded-xl  bg-blue-700 text-white text-lg font-bold'>  
@@ -31,10 +31,10 @@ function App() {
       <img src={image1} alt='foto' className='flex items-center justify-center w-64 h-64 mt-20'/>
       </div>
       <div>
-        <span className='flex flex-col items-center justify-center text-2xl font-semibold text-white mt-16' >Hola mi nombre es : 
+        <span className='flex flex-col items-center justify-center text-2xl font-semibold text-white mt-16' >Hey, I'm 
         </span>,
         <span className='flex items-center justify-center text-4xl font-semibold text-white'>Luis Enrique Diaz</span>
-        <span className='flex items-center justify-center text-4xl font-semibold text-white'>Desarrollador Web</span>
+        <span className='flex items-center justify-center text-4xl font-semibold text-white'>Web Programmer</span>
       </div>
       <div className='py-16 mt-20'>
         <section id='Seccion1'>
@@ -44,7 +44,7 @@ function App() {
       <div>
         <div>
         <section className='grid place-items-center justify-center pt-12' id='Seccion2'>
-        <h2 className='text-black text-3xl font-bold py-2'>PROYECTOS</h2>
+        <h2 className='text-white text-3xl font-bold py-2'>PROYECTS</h2>
         </section>
          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
        <section className='bg-#011d41 h-screen flex justify-center items-center gap-x-16 text-white'>
@@ -106,7 +106,7 @@ function App() {
       </section>
       <div className='grid place-items-center justify-center w-screen '>
       <section className='flex items-center justify-center' id='Seccion3'>
-      <h2 className=' text-black text-3xl font-bold mt-8'>CONTACT</h2>
+      <h2 className=' text-white text-3xl font-bold mt-8'>CONTACT</h2>
       </section>
         <div className='grid grid-cols-3 gap-16 mt-10'>
           <button className='hover:bg-blue-700 active:bg-blue-900 rounded-xl focus:outline-none focus:ring'type='button'>
@@ -127,7 +127,7 @@ function App() {
         </div>
         <div>
         <hr></hr>
-         <p className='text-center text-white font-bold pt-20'>Desarrollado por Luis E Diaz</p>
+         <p className='text-center text-white font-bold pt-20'>MADE BY LUIS DIAZ</p>
         </div>
         </div>
       </div>
