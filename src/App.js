@@ -13,7 +13,7 @@ import github from './assets/images/github.svg';
 function App() {
   return (
   <div className=' h-screen-500 grid place-items-center justify-center'>
-      <div className=' grid grid-cols-3 gap-12 mt-10'>
+      <div className=' grid grid-cols-3 gap-8 mt-10'>
         <button type='button' className='active:scale-[.98] active:duration-75 hover:scale-[1.01] ease-in-out transition- 
          all px-4 py-3 rounded-xl  bg-blue-700 text-white text-lg font-bold'> 
           <a href='#Seccion1'>Skills</a>
@@ -46,7 +46,7 @@ function App() {
         <section className='grid place-items-center justify-center pt-12' id='Seccion2'>
         <h2 className='text-white text-3xl font-bold py-2'>PROYECTS</h2>
         </section>
-         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
+         <div className='grid grid-cols-1 ml-2 odd:md:grid-cols-2 lg:grid-cols-3 gap-8'>
        <section className='bg-#011d41 h-screen flex justify-center items-center gap-x-16 text-white'>
        <div className='w-[300px] h-[420px] bg-transparent cursor-pointer group perspective'>
         <div className='relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000'>
