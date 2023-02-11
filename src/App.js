@@ -59,7 +59,9 @@ function App() {
               <p className='my-2'>See current movie releases</p>
               <p>React-tailwindcss</p>
                <button className='bg-teal-500 px-6 py-2 font-semibold text-white rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-20 scale-0 group-hover:scale-125'>
+                <a href='https://luismagnum.github.io/movies/'>
                 WEB
+                </a>
                </button>
             </div>
            </div>
