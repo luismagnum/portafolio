@@ -8,6 +8,8 @@ import mail from './assets/images/mail.svg';
 import form2 from './assets/images/form2.svg';
 import movi from './assets/images/movi.svg';
 import github from './assets/images/github.svg';
+import reactfo from './assets/images/reactfo.png';
+import tailwfo from './assets/images/tailwfo.svg';
 
 
 function App() {
@@ -80,7 +82,9 @@ function App() {
               <p className='my-2'>Weather today</p>
               <p>React-Tailwindcss</p>
                <button className='bg-teal-500 px-6 py-2 font-semibold text-white rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-20 scale-0 group-hover:scale-125'>
+               <a href='https://luismagnum.github.io/weather/'>
                 WEB
+                </a>
                </button>
             </div>
            </div>
@@ -99,7 +103,9 @@ function App() {
               <p className='my-2'>Fill a form</p>
               <p>React-ReactHook form-EmailJS</p>
                <button className='bg-teal-500 px-6 py-2 font-semibold text-white rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-20 scale-0 group-hover:scale-125'>
+               <a href='https://luismagnum.github.io/forms/'>
                 WEB
+               </a>
                </button>
             </div>
            </div>
@@ -127,13 +133,14 @@ function App() {
           </a>
           </button>
         </div>
-        <div>
-        <hr></hr>
+        <div className='grid place-items-center justify-center '>
          <p className='text-center text-white font-bold pt-20'>MADE BY LUIS DIAZ</p>
+         <img src={reactfo} alt=''/>
+         <img src={tailwfo} alt=''/>
         </div>
         </div>
-      </div>
     </div>
+  </div>
   </div>
   </div>
   )
