@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
-import tecno1 from './assets/images/tecno1.svg';
+import skillss from './assets/images/skillss.svg';
 import image1 from './assets/images/image1.svg';
 import clima1 from './assets/images/clima1.svg'
-import linkedin from './assets/images/linkedin.svg';
-import mail from './assets/images/mail.svg';
+import linke from './assets/images/linke.svg';
+import email from './assets/images/email.svg';
 import form2 from './assets/images/form2.svg';
 import movi from './assets/images/movi.svg';
-import github from './assets/images/github.svg';
-import reactfo from './assets/images/reactfo.png';
+import git from './assets/images/git.png';
+import reactlog from './assets/images/reactlog.png';
 import tailwfo from './assets/images/tailwfo.svg';
 
 
@@ -40,7 +40,7 @@ function App() {
       </div>
       <div className='py-16 mt-20'>
         <section id='Seccion1'>
-        <img src={tecno1} alt='logo'/>
+        <img src={skillss} alt='logo'/>
         </section>
       </div>
       <div>
@@ -119,24 +119,26 @@ function App() {
         <div className='grid grid-cols-3 gap-16 mt-10'>
           <button className='hover:bg-blue-700 active:bg-blue-900 rounded-xl focus:outline-none focus:ring'type='button'>
           <a href="mailto:luismagnum1@gmail.com">
-          <img src={mail} alt='mail'/> 
+          <img src={email} alt='mail'/> 
           </a>
           </button>
           <button className='hover:bg-blue-700 active:bg-blue-900 rounded-xl focus:outline-none focus:ring'type='button'>
           <a href='https://www.linkedin.com/in/luis-enrique-diaz-brice%C3%B1o-b4662124b/ target=_blank'>
-          <img src={linkedin} alt='linkedin'/>
+          <img src={linke} alt='linkedin'/>
           </a>
           </button>
           <button className='hover:bg-blue-700 active:bg-blue-900 rounded-xl focus:outline-none focus:ring'type='button'>
           <a href='https://github.com/luismagnum'>
-          <img src={github} alt='git'/>
+          <img src={git} alt='git'/>
           </a>
           </button>
         </div>
-        <div className='grid place-items-center justify-center '>
+        <div className='grid place-items-center justify-center w-screen'>
          <p className='text-center text-white font-bold pt-20'>MADE BY LUIS DIAZ</p>
-         <img src={reactfo} alt=''/>
-         <img src={tailwfo} alt=''/>
+         <div className='grid grid-cols-2 gap-6 mt-2'>
+         <img className='w-12 h-8' src={reactlog} alt=''/>
+         <img className='w-12 h-8' src={tailwfo} alt=''/>
+         </div>
         </div>
         </div>
     </div>
