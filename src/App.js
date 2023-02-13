@@ -8,7 +8,7 @@ import email from './assets/images/email.svg';
 import form2 from './assets/images/form2.svg';
 import movi from './assets/images/movi.svg';
 import git from './assets/images/git.png';
-import reactlog from './assets/images/reactlog.png';
+import reactfoter from './assets/images/reactfoter.svg';
 import tailwfo from './assets/images/tailwfo.svg';
 
 
@@ -36,7 +36,7 @@ function App() {
         <span className='flex flex-col items-center justify-center text-2xl font-semibold text-white mt-16' >Hey, I'm 
         </span>,
         <span className='flex items-center justify-center text-4xl font-semibold text-white'>Luis Enrique Diaz</span>
-        <span className='flex items-center justify-center text-4xl font-semibold text-white'>Web Programmer</span>
+        <span className='flex items-center justify-center text-4xl font-semibold text-white'>Web Developer</span>
       </div>
       <div className='py-16 mt-20'>
         <section id='Seccion1'>
@@ -136,7 +136,7 @@ function App() {
         <div className='grid place-items-center justify-center w-screen'>
          <p className='text-center text-white font-bold pt-20'>MADE BY LUIS DIAZ</p>
          <div className='grid grid-cols-2 gap-6 mt-2'>
-         <img className='w-12 h-8' src={reactlog} alt=''/>
+         <img className='w-12 h-8' src={reactfoter} alt=''/>
          <img className='w-12 h-8' src={tailwfo} alt=''/>
          </div>
         </div>
