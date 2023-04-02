@@ -61,7 +61,7 @@ function App() {
               <p className='my-2'>Diseño de paginas Web</p>
               <p>REACT-TAILWINDCSS</p>
                <button className='bg-teal-500 px-6 py-2 font-semibold text-white rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-20 scale-0 group-hover:scale-125'>
-                <a href='https:www.speedweb.store/'>
+                <a href='https://www.speedweb.store/'>
                 WEB
                 </a>
                </button>
@@ -82,7 +82,7 @@ function App() {
               <p className='my-2'>Fiambres y Quesos</p>
               <p>HTML-CSS</p>
                <button className='bg-teal-500 px-6 py-2 font-semibold text-white rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-20 scale-0 group-hover:scale-125'>
-               <a href='https:www.queseriademisinti.online/'>
+               <a href='https://www.queseriademisinti.online/'>
                 WEB
                 </a>
                </button>
