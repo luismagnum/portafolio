@@ -1,23 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.7ae74a2d.css",
-    "main.js": "/static/js/main.d3cb6696.js",
+    "main.css": "/static/css/main.7e803cb3.css",
+    "main.js": "/static/js/main.e4a574ef.js",
     "static/media/image1.svg": "/static/media/image1.279fc39741921e135bac56f765b66673.svg",
     "static/media/speedga.svg": "/static/media/speedga.77c29290db43ac989f0a4f6e1f553353.svg",
     "static/media/queseria.svg": "/static/media/queseria.7f40ec97457a5a060d5f76140db73298.svg",
     "static/media/speed.svg": "/static/media/speed.da43ea822f2629c150cd46954479bf54.svg",
     "static/media/teque.svg": "/static/media/teque.a04e6685bc303ccd7de086a69391739b.svg",
-    "static/media/skillss.svg": "/static/media/skillss.faf1d367e98205065627816f0fc7d658.svg",
+    "static/media/bootstrap.svg": "/static/media/bootstrap.88d777cba9db1628fbcc4319e380caa5.svg",
+    "static/media/sass.svg": "/static/media/sass.c5cd6f68f5b9eebb4cec33efc11a0a12.svg",
+    "static/media/react.svg": "/static/media/react.57a71da916289f16ea11ce827f0b810e.svg",
     "static/media/reactfoter.svg": "/static/media/reactfoter.57a71da916289f16ea11ce827f0b810e.svg",
+    "static/media/figma.svg": "/static/media/figma.ad871afd305180efa718ba4eeb2a8360.svg",
+    "static/media/css.svg": "/static/media/css.b3c0acbf83dd5d6e5ab455b9de967ab9.svg",
+    "static/media/typescript.svg": "/static/media/typescript.1d9e662ca3b9ab5050954ac84e6caac2.svg",
     "index.html": "/index.html",
+    "static/media/html.svg": "/static/media/html.8c11e1a8364b520a311ac9bf8b5d2fbf.svg",
     "static/media/email.svg": "/static/media/email.ed2c0453346e3ec2c903c4568a727f97.svg",
     "static/media/tailwfo.svg": "/static/media/tailwfo.1ff53afb0748cd483d5f0ed13029f287.svg",
+    "static/media/tailwindcss.svg": "/static/media/tailwindcss.1ff53afb0748cd483d5f0ed13029f287.svg",
+    "static/media/javasc.svg": "/static/media/javasc.eb9d2cb6a3b49394e8e20873cb00479e.svg",
+    "static/media/angular.svg": "/static/media/angular.844d225acae0afd02d7033d7af89546a.svg",
     "static/media/linke.svg": "/static/media/linke.9de6ddda1cea637a841ef3b7885ed49a.svg",
-    "main.7ae74a2d.css.map": "/static/css/main.7ae74a2d.css.map",
-    "main.d3cb6696.js.map": "/static/js/main.d3cb6696.js.map"
+    "main.7e803cb3.css.map": "/static/css/main.7e803cb3.css.map",
+    "main.e4a574ef.js.map": "/static/js/main.e4a574ef.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ae74a2d.css",
-    "static/js/main.d3cb6696.js"
+    "static/css/main.7e803cb3.css",
+    "static/js/main.e4a574ef.js"
   ]
 }
