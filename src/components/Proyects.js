@@ -7,10 +7,10 @@ import speedga from '../assets/images/speedga.svg';
 export default function Proyects() {
   return (
       <div>
-        <section className='grid place-items-center justify-center pt-10' id='Seccion2'>
+      <section className='grid place-items-center justify-center gap-1 pt-10' id='Seccion2'>
         <h2 className='text-white text-3xl font-bold py-2'>PROYECTS</h2>
         </section>
-        <div className='grid grid-cols-1 gap-1 ml-2 odd:md:grid-cols-2 lg:grid-cols-4'>
+        <div className='grid grid-cols-1 ml-2 odd:md:grid-cols-2 lg:grid-cols-4'>
        <section className='bg-#011d41 h-screen flex justify-center items-center gap-x-16 text-white'>
        <div className='w-[300px] h-[420px] bg-transparent cursor-pointer group perspective'>
         <div className='relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000'>

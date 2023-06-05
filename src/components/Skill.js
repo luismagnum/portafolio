@@ -10,6 +10,7 @@ import ang from '../assets/images/images/angular.svg'
 import ts from '../assets/images/images/typescript.svg'
 import sas from '../assets/images/images/sass.svg'
 import bost from '../assets/images/images/bootstrap.svg'
+import next from '../assets/images/images/nextjs.svg'
 
 
 export default function Skill() {
@@ -29,6 +30,7 @@ export default function Skill() {
         <img src={ts} alt='logo'className='w-28'/>
         <img src={sas} alt='logo'className='w-28'/>
         <img src={bost} alt='logo'className='w-28'/>
+        <img src={next} alt='logo'className='w-28'/>
         </div>
     </div>
     </>
