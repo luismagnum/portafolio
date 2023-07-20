@@ -7,7 +7,7 @@ import speedga from '../assets/images/speedga.svg';
 export default function Proyects() {
   return (
       <div>
-      <section className='grid place-items-center justify-center gap-1 pt-10' id='Seccion2'>
+      <section className='grid place-items-center justify-center gap-1 pt-4' id='Seccion2'>
         <h2 className='text-white text-3xl font-bold py-2'>PROYECTS</h2>
         </section>
         <div className='grid grid-cols-1 ml-2 odd:md:grid-cols-2 lg:grid-cols-4'>
