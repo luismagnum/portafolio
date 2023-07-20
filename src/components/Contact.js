@@ -10,7 +10,7 @@ export default function Contact() {
       <section className='flex items-center justify-center' id='Seccion3'>
       <h2 className=' text-white text-3xl font-bold mt-8'>CONTACT</h2>
       </section>
-        <div className='grid grid-cols-3 gap-8 mt-10'>
+        <div className='grid grid-cols-3 gap-8 mt-10 mb-10'>
           <button className='hover:bg-blue-700 active:bg-blue-900 rounded-xl focus:outline-none focus:ring'type='button'>
           <a href="mailto:luismagnum1@gmail.com">
           <img src={email} alt='mail' className='w-20'/> 
