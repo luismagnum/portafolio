@@ -12,8 +12,8 @@ export default function Proyects() {
       <section className='grid place-items-center justify-center gap-1 pt-1' id='Seccion2'>
         <h2 className='text-white text-3xl font-bold py-2'>PROYECTS</h2>
         </section>
-        <div className='grid grid-cols-1 ml-2 odd:md:grid-cols-2 lg:grid-cols-3'>
-       <section className='bg-#011d41 h-screen flex justify-center items-center gap-x-16 text-white'>
+        <div className='grid grid-cols-1 odd:md:grid-cols-2 lg:grid-cols-3'>
+       <section className='bg-#011d41 h-auto flex justify-center items-center mt-5 gap-x-16 text-white'>
        <div className='w-[300px] h-[420px] bg-transparent cursor-pointer group perspective'>
         <div className='relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000'>
          <div className='absolute backface-hidden border-2 w-full '>
@@ -25,7 +25,7 @@ export default function Proyects() {
               <p className='my-2'>Diseño de paginas Web</p>
               <p>REACT-TAILWINDCSS</p>
                <button className='bg-[#011d41] px-6 py-2 font-semibold text-white rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-20 scale-0 group-hover:scale-125'>
-                <a href='https://www.speedweb.store/'>
+                <a href='https://www.speedweb.store/'target='_blank'>
                 WEB
                 </a>
                </button>
@@ -34,7 +34,7 @@ export default function Proyects() {
          </div>
         </div>
       </section>
-      <section className='bg-#011d41 h-screen flex justify-center items-center gap-x-16 text-white'>
+      <section className='bg-#011d41 h-auto flex justify-center items-center mt-5 gap-x-16 text-white'>
        <div className='w-[300px] h-[420px] bg-transparent cursor-pointer group perspective'>
         <div className='relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000'>
          <div className='absolute backface-hidden border-2 w-full'>
@@ -46,7 +46,7 @@ export default function Proyects() {
               <p className='my-2'>Fiambres y Quesos</p>
               <p>HTML-CSS</p>
                <button className='bg-[#011d41] px-6 py-2 font-semibold text-white rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-20 scale-0 group-hover:scale-125'>
-               <a href='https://www.queseriademisinti.online/'>
+               <a href='https://www.queseriademisinti.online/'target='_blank'>
                 WEB
                 </a>
                </button>
@@ -55,7 +55,7 @@ export default function Proyects() {
          </div>
         </div>
       </section>
-      <section className='bg-#011d41 h-screen flex justify-center items-center gap-x-16 text-white'>
+      <section className='bg-#011d41 h-auto flex justify-center items-center mt-5 gap-x-16 text-white'>
        <div className='w-[300px] h-[420px] bg-transparent cursor-pointer group perspective'>
         <div className='relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000'>
          <div className='absolute backface-hidden border-2 w-full'>
@@ -63,11 +63,11 @@ export default function Proyects() {
           </div>
            <div className='absolute my-rotate-y-180 backface-hidden w-full h-full bg-gray-100 overflow-hidden'>
             <div className='text-center flex flex-col items-center justify-center h-full text-gray-800 px-2 pb-24'>
-             <h1 className='text-3xl font-semibold'>ECOMMERCE</h1>
-              <p className='my-2'>Sabores de Venezuela</p>
+             <h1 className='text-3xl font-semibold'>Sabores de Vzla</h1>
+              <p className='my-2'>ECOMMERCE</p>
               <p>HTML y CSS</p>
                <button className='bg-[#011d41] px-6 py-2 font-semibold text-white rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-20 scale-0 group-hover:scale-125'>
-               <a href='https://www.saboresdevenezuela.online'>
+               <a href='https://www.saboresdevenezuela.online'target='_blank'>
                 WEB
                </a>
                </button>
@@ -77,7 +77,7 @@ export default function Proyects() {
         </div>
       </section>
 
-      <section className='bg-#011d41 h-screen flex justify-center items-center gap-x-16 text-white'>
+      <section className='bg-#011d41 h-auto flex justify-center items-center mt-5 gap-x-16 text-white'>
        <div className='w-[300px] h-[420px] bg-transparent cursor-pointer group perspective'>
         <div className='relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000'>
          <div className='absolute backface-hidden border-2 w-full'>
@@ -85,11 +85,11 @@ export default function Proyects() {
           </div>
            <div className='absolute my-rotate-y-180 backface-hidden w-full h-full bg-gray-100 overflow-hidden'>
             <div className='text-center flex flex-col items-center justify-center h-full text-gray-800 px-2 pb-24'>
-             <h1 className='text-3xl font-semibold'>ECOMMERCE</h1>
-              <p className='my-2'>SpeedGamers</p>
+             <h1 className='text-3xl font-semibold'>SpeedGamers</h1>
+              <p className='my-2'>ECOMMERCE</p>
               <p>HTML y CSS</p>
                <button className='bg-[#011d41] px-6 py-2 font-semibold text-white rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-20 scale-0 group-hover:scale-125'>
-               <a href='https://www.speedgamers.online'>
+               <a href='https://www.speedgamers.online'target='_blank'>
                 WEB
                </a>
                </button>
@@ -98,7 +98,7 @@ export default function Proyects() {
          </div>
         </div>
       </section>
-      <section className='bg-#011d41 h-screen flex justify-center items-center gap-x-16 text-white'>
+      <section className='bg-#011d41 h-auto flex justify-center items-center mt-5 gap-x-16 text-white'>
        <div className='w-[300px] h-[420px] bg-transparent cursor-pointer group perspective'>
         <div className='relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000'>
          <div className='absolute backface-hidden border-2 w-full'>
@@ -106,11 +106,11 @@ export default function Proyects() {
           </div>
            <div className='absolute my-rotate-y-180 backface-hidden w-full h-full bg-gray-100 overflow-hidden'>
             <div className='text-center flex flex-col items-center justify-center h-full text-gray-800 px-2 pb-24'>
-             <h1 className='text-3xl font-semibold'>ECOMMERCE</h1>
-              <p className='my-2'>Movies</p>
-              <p>HTML y CSS</p>
+             <h1 className='text-3xl font-semibold'>Movies</h1>
+              <p className='my-2'>React Api</p>
+              <p> React </p>
                <button className='bg-[#011d41] px-6 py-2 font-semibold text-white rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-20 scale-0 group-hover:scale-125'>
-               <a href='https://luismagnum.github.io/movies/'>
+               <a href='https://luismagnum.github.io/movies/'target='_blank'>
                 WEB
                </a>
                </button>
@@ -119,7 +119,7 @@ export default function Proyects() {
          </div>
         </div>
       </section>
-      <section className='bg-#011d41 h-screen flex justify-center items-center gap-x-16 text-white'>
+      <section className='bg-#011d41 h-auto flex justify-center items-center mt-5 gap-x-16 text-white'>
        <div className='w-[300px] h-[420px] bg-transparent cursor-pointer group perspective'>
         <div className='relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000'>
          <div className='absolute backface-hidden border-2 w-full'>
@@ -127,11 +127,11 @@ export default function Proyects() {
           </div>
            <div className='absolute my-rotate-y-180 backface-hidden w-full h-full bg-gray-100 overflow-hidden'>
             <div className='text-center flex flex-col items-center justify-center h-full text-gray-800 px-2 pb-24'>
-             <h1 className='text-3xl font-semibold'>ECOMMERCE</h1>
-              <p className='my-2'>Tequeños Vzlanos</p>
+             <h1 className='text-3xl font-semibold'>Tequeños Vzlanos</h1>
+              <p className='my-2'>ECOMMERCE</p>
               <p>HTML y CSS</p>
                <button className='bg-[#011d41] px-6 py-2 font-semibold text-white rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-20 scale-0 group-hover:scale-125'>
-               <a href='https://www.tequevzla.online'>
+               <a href='https://www.tequevzla.online'target='_blank'>
                 WEB
                </a>
                </button>
