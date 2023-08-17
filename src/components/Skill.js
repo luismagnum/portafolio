@@ -14,6 +14,7 @@ import next from '../assets/images/images/nextjs.svg'
 import jira from '../assets/images/jira.png'
 import xray from '../assets/images/xray.png'
 import qa from '../assets/images/qa.png'
+import sql from '../assets/images/sql.png'
 
 
 export default function Skill() {
@@ -21,7 +22,7 @@ export default function Skill() {
     <>
     <h2 className='text-center text-white text-3xl font-bold py-2 mt-4'>TECHNOLOGY</h2>
     <div className='mt-10 mb-10 ml-16 mx-8 gap-6 h-100 flex items-center justify-center' id='Seccion1'>
-        <div className='grid grid-cols-2 gap-6 mt-2 m-auto md:grid-cols-4 lg:grid-cols-5'>
+        <div className='grid grid-cols-2 gap-6 mt-2 m-auto md:grid-cols-4 lg:grid-cols-4'>
         <img src={html} alt='logo' className='w-28'/>
         <img src={css} alt='logo'className='w-28'/>
         <img src={js} alt='logo'className='w-24 h-24'/>
@@ -37,6 +38,7 @@ export default function Skill() {
         <img src={qa} alt='logo'className='w-28'/>
         <img src={jira} alt='logo'className='mt-4 w-48'/>
         <img src={xray} alt='logo'className='ml-2 w-24 h-24 bg-white'/>
+        <img src={sql} alt='logo'className='ml-2 w-24 h-24 bg-white'/>
         </div>
     </div>
     </>
