@@ -1,6 +1,5 @@
 import React from 'react'
 import image1 from '../assets/images/image1.svg';
-
 export default function Nave() {
   return (
   <div className='h-screen-500 grid place-items-center justify-center'>
@@ -25,7 +24,7 @@ export default function Nave() {
         <span className='flex flex-col items-center justify-center text-2xl font-semibold text-white mt-16' >Hey, I'm 
         </span>,
         <span className='flex items-center justify-center text-3xl font-semibold text-white'>Luis Enrique Diaz</span>
-        <span className='flex items-center justify-center text-3xl font-semibold text-white'>Web Developers</span>
+        <span className='flex items-center justify-center text-3xl font-semibold text-white'>Web Developer</span>
         <span className='flex items-center justify-center text-3xl font-semibold text-white'>Testing QA</span>
       <br></br>
       </div>
