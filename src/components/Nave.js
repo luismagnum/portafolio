@@ -5,15 +5,15 @@ export default function Nave() {
   <div className='h-screen-500 grid place-items-center justify-center'>
       <div className=' grid grid-cols-3 gap-8 mt-10'>
         <button type='button' className='active:scale-[.98] active:duration-75 hover:scale-[1.01] ease-in-out transition- 
-         all px-4 py-3 rounded-xl  bg-blue-700 text-white text-lg font-bold'> 
+         all px-4 py-3 rounded-xl  text-white text-2xl font-bold'> 
           <a href='#Seccion1'>Skills</a>
           </button>
          <button type='button' className='active:scale-[.98] active:duration-75 hover:scale-[1.01] ease-in-out transition- 
-          all py-3 rounded-xl  bg-blue-700 text-white text-lg font-bold'> 
+          all py-3 rounded-xl text-white text-2xl font-bold'> 
           <a href='#Seccion2'>Proyects</a> 
          </button>
          <button type='button' className='active:scale-[.98] active:duration-75 hover:scale-[1.01] ease-in-out transition- 
-          all py-3 rounded-xl  bg-blue-700 text-white text-lg font-bold'>  
+          all py-3 rounded-xl text-white text-2xl font-bold'>  
           <a href='#Seccion3'>Contact </a> 
          </button>
       </div>
