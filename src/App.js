@@ -5,17 +5,31 @@ import Skill from './components/Skill';
 import Proyects from './components/Proyects';
 import Contact from './components/Contact';
 import Foter from './components/Foter';
+import Navbar from './components/Nabar';
 
 
 function App() {
   return (
-   <>
-   <Nave/>
-   <Skill/>
-   <Proyects/>
-   <Contact/>
-   <Foter/>
-   </>
+   <div>
+   <Navbar />
+   <main>
+    <div id='Nave'>
+      <Nave />
+    </div>
+    <div id='Skill'>
+      <Skill />
+    </div>
+    <div id='Proyects'>
+      <Proyects />
+    </div>
+    <div id='Contact'>
+      <Contact />
+    </div>
+    <div>
+      <Foter/>
+    </div>
+   </main>
+  </div>
   )
 }
 

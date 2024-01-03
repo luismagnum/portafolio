@@ -10,7 +10,7 @@ export default function Proyects() {
   return (
       <div>
       <section className='grid place-items-center justify-center gap-1 pt-1' id='Seccion2'>
-        <h2 className='text-white text-3xl font-bold py-2'>PROYECTS</h2>
+        <h2 className='h-screen-500 text-white text-3xl font-bold py-2 mt-16 overflow-y-auto'>PROYECTS</h2>
         </section>
         <div className='grid grid-cols-1 odd:md:grid-cols-2 lg:grid-cols-3'>
        <section className='bg-#011d41 h-auto flex justify-center items-center mt-5 gap-x-16 text-white'>
@@ -25,7 +25,7 @@ export default function Proyects() {
               <p className='my-2'>Diseño de paginas Web</p>
               <p>REACT-TAILWINDCSS</p>
                <button className='bg-[#011d41] px-6 py-2 font-semibold text-white rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-20 scale-0 group-hover:scale-125'>
-                <a href='https://www.speedweb.store/'target='_blank'>
+                <a href='https://www.speedweb.store/'target='_blank' rel="noreferrer">
                 WEB
                 </a>
                </button>
@@ -46,7 +46,7 @@ export default function Proyects() {
               <p className='my-2'>Fiambres y Quesos</p>
               <p>HTML-CSS</p>
                <button className='bg-[#011d41] px-6 py-2 font-semibold text-white rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-20 scale-0 group-hover:scale-125'>
-               <a href='https://www.queseriademisinti.online/'target='_blank'>
+               <a href='https://www.queseriademisinti.online/'target='_blank rel="noreferrer"'>
                 WEB
                 </a>
                </button>
@@ -67,7 +67,7 @@ export default function Proyects() {
               <p className='my-2'>ECOMMERCE</p>
               <p>HTML y CSS</p>
                <button className='bg-[#011d41] px-6 py-2 font-semibold text-white rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-20 scale-0 group-hover:scale-125'>
-               <a href='https://www.saboresdevenezuela.online'target='_blank'>
+               <a href='https://www.saboresdevenezuela.online'target='_blank' rel="noreferrer">
                 WEB
                </a>
                </button>
@@ -89,7 +89,7 @@ export default function Proyects() {
               <p className='my-2'>ECOMMERCE</p>
               <p>HTML y CSS</p>
                <button className='bg-[#011d41] px-6 py-2 font-semibold text-white rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-20 scale-0 group-hover:scale-125'>
-               <a href='https://www.speedgamers.online'target='_blank'>
+               <a href='https://www.speedgamers.online'target='_blank' rel="noreferrer">
                 WEB
                </a>
                </button>
@@ -110,7 +110,7 @@ export default function Proyects() {
               <p className='my-2'>React Api</p>
               <p> React </p>
                <button className='bg-[#011d41] px-6 py-2 font-semibold text-white rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-20 scale-0 group-hover:scale-125'>
-               <a href='https://luismagnum.github.io/movies/'target='_blank'>
+               <a href='https://luismagnum.github.io/movies/'target='_blank' rel="noreferrer">
                 WEB
                </a>
                </button>
@@ -131,7 +131,7 @@ export default function Proyects() {
               <p className='my-2'>ECOMMERCE</p>
               <p>HTML y CSS</p>
                <button className='bg-[#011d41] px-6 py-2 font-semibold text-white rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-20 scale-0 group-hover:scale-125'>
-               <a href='https://www.tequevzla.online'target='_blank'>
+               <a href='https://www.tequevzla.online'target='_blank' rel="noreferrer">
                 WEB
                </a>
                </button>
