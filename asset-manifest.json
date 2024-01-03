@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0e6e998f.css",
-    "main.js": "/static/js/main.33a45caf.js",
+    "main.css": "/static/css/main.3a40f339.css",
+    "main.js": "/static/js/main.cab8c0c9.js",
     "static/media/image1.svg": "/static/media/image1.279fc39741921e135bac56f765b66673.svg",
     "static/media/speedga.svg": "/static/media/speedga.77c29290db43ac989f0a4f6e1f553353.svg",
     "static/media/queseria.svg": "/static/media/queseria.7f40ec97457a5a060d5f76140db73298.svg",
@@ -29,11 +29,11 @@
     "static/media/nextjs.svg": "/static/media/nextjs.d481baa666ee6d7066adffac03cfdedc.svg",
     "static/media/javasc.svg": "/static/media/javasc.eb9d2cb6a3b49394e8e20873cb00479e.svg",
     "static/media/linke.svg": "/static/media/linke.9de6ddda1cea637a841ef3b7885ed49a.svg",
-    "main.0e6e998f.css.map": "/static/css/main.0e6e998f.css.map",
-    "main.33a45caf.js.map": "/static/js/main.33a45caf.js.map"
+    "main.3a40f339.css.map": "/static/css/main.3a40f339.css.map",
+    "main.cab8c0c9.js.map": "/static/js/main.cab8c0c9.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e6e998f.css",
-    "static/js/main.33a45caf.js"
+    "static/css/main.3a40f339.css",
+    "static/js/main.cab8c0c9.js"
   ]
 }
