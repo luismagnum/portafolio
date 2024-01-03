@@ -7,7 +7,6 @@ import Contact from './components/Contact';
 import Foter from './components/Foter';
 import Navbar from './components/Nabar';
 
-
 function App() {
   return (
    <div>

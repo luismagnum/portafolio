@@ -3,7 +3,7 @@ import {Link} from "react-scroll";
 import { IoClose } from "react-icons/io5";
 import { TiThMenu } from "react-icons/ti";
 
-const Navbar = () => {
+const Nabar = () => {
   const [menu, setMenu] = useState(false);
 
   const handleChange = () =>{
@@ -28,7 +28,7 @@ const Navbar = () => {
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-blue-800 transition-all cursor-pointer'>
+                 className='hover:text-gray-700 transition-all cursor-pointer'>
                  Home
                  </Link>
                 <Link 
@@ -36,7 +36,7 @@ const Navbar = () => {
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-blue-800 transition-all cursor-pointer'>
+                 className='hover:text-gray-700 transition-all cursor-pointer'>
                  Skills
                  </Link>
                 <Link 
@@ -44,7 +44,7 @@ const Navbar = () => {
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-blue-800 transition-all cursor-pointer'>
+                 className='hover:text-gray-700 transition-all cursor-pointer'>
                  Proyects
                 </Link>
                 <Link 
@@ -52,7 +52,7 @@ const Navbar = () => {
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-blue-800 transition-all cursor-pointer'>
+                 className='hover:text-gray-700 transition-all cursor-pointer'>
                  Contact
                 </Link>
             </nav>
@@ -70,7 +70,7 @@ const Navbar = () => {
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-blue-800 transition-all cursor-pointer'
+                 className='hover:text-gray-700 transition-all cursor-pointer'
                  onClick={closeMenu}>
                  Home
                  </Link>
@@ -79,7 +79,7 @@ const Navbar = () => {
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-blue-800 transition-all cursor-pointer'
+                 className='hover:text-gray-700 transition-all cursor-pointer'
                  onClick={closeMenu}>
                  Skills
                  </Link>
@@ -88,7 +88,7 @@ const Navbar = () => {
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-blue-800 transition-all cursor-pointer'
+                 className='hover:text-gray-700 transition-all cursor-pointer'
                  onClick={closeMenu}>
                  Proyects
                 </Link>
@@ -97,7 +97,7 @@ const Navbar = () => {
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-blue-800 transition-all cursor-pointer'
+                 className='hover:text-gray-700 transition-all cursor-pointer'
                  onClick={closeMenu}>
                  Contact
                 </Link>
@@ -107,4 +107,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Nabar
