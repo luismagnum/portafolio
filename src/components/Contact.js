@@ -12,17 +12,17 @@ export default function Contact() {
       </section>
         <div className='grid grid-cols-3 gap-8 mt-10 mb-10'>
           <button className='hover:bg-blue-700 active:bg-blue-900 rounded-xl focus:outline-none focus:ring'type='button'>
-          <a href="mailto:luismagnum1@gmail.com">
+          <a href="mailto:luismagnum1@gmail.com" target='_blank' rel="noreferrer">
           <img src={email} alt='mail' className='w-20'/> 
           </a>
           </button>
           <button className='hover:bg-blue-700 active:bg-blue-900 rounded-xl focus:outline-none focus:ring'type='button'>
-          <a href='https://www.linkedin.com/in/luis-enrique-diaz-brice%C3%B1o-b4662124b/ target=_blank'>
+          <a href='https://www.linkedin.com/in/luis-enrique-diaz-brice%C3%B1o-b4662124b/ target=_blank'target='_blank' rel="noreferrer">
           <img src={linke} alt='linkedin' className='w-20'/>
           </a>
           </button>
           <button className='hover:bg-blue-700 active:bg-blue-900 rounded-xl focus:outline-none focus:ring'type='button'>
-          <a href='https://github.com/luismagnum'>
+          <a href='https://github.com/luismagnum'target='_blank' rel="noreferrer">
           <img src={git} alt='git' className='w-20'/>
           </a>
           </button>
