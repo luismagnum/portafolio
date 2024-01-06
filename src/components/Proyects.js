@@ -9,7 +9,7 @@ import tequenos from '../assets/images/images/tequenos.svg';
 export default function Proyects() {
   return (
       <div>
-      <section className='grid place-items-center justify-center gap-1 pt-1' id='Seccion2'>
+      <section className='grid place-items-center justify-center gap-1 pt-1'>
         <h2 className='h-screen-500 text-white text-3xl font-bold py-2 mt-16 overflow-y-auto'>PROYECTS</h2>
         </section>
         <div className='grid grid-cols-1 odd:md:grid-cols-2 lg:grid-cols-3'>

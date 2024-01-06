@@ -48,6 +48,14 @@ const Nabar = () => {
                  Proyects
                 </Link>
                 <Link 
+                 to='Player'
+                 spy={true} 
+                 smooth={true} 
+                 duration={500} 
+                 className='hover:text-gray-700 transition-all cursor-pointer'>
+                 NoCountry
+                </Link>
+                <Link 
                  to='Contact' 
                  spy={true} 
                  smooth={true} 
@@ -91,6 +99,15 @@ const Nabar = () => {
                  className='hover:text-gray-700 transition-all cursor-pointer'
                  onClick={closeMenu}>
                  Proyects
+                </Link>
+                <Link 
+                 to='Player'
+                 spy={true} 
+                 smooth={true} 
+                 duration={500} 
+                 className='hover:text-gray-700 transition-all cursor-pointer'
+                 onClick={closeMenu}>
+                 NoCountry
                 </Link>
                 <Link 
                  to='Contact' 

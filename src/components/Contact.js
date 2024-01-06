@@ -7,7 +7,7 @@ export default function Contact() {
   return (
     <div>
       <div className='grid place-items-center justify-center w-screen '>
-      <section className='flex items-center justify-center' id='Seccion3'>
+      <section className='flex items-center justify-center'>
       <h2 className=' text-white text-3xl font-bold mt-24'>CONTACT</h2>
       </section>
         <div className='grid grid-cols-3 gap-8 mt-10 mb-10'>

@@ -20,7 +20,8 @@ import xray from '../assets/images/xray.png'
 export default function Skill() {
   return (
     <div>
-    <h2 className='h-screen-500 text-center text-white text-3xl font-bold py-2 mt-4'>TECHNOLOGY</h2>
+    <section className='grid place-items-center justify-center gap-1 pt-1'></section>
+    <h2 className='h-screen-500 text-center text-white text-3xl font-bold py-2 mt-16'>TECHNOLOGY</h2>
     <div className='mt-10 mb-10 ml-16 mx-10 gap-8 h-100 flex items-center justify-center'>
         <div className='grid grid-cols-2 gap-10 mt-2 m-auto md:grid-cols-4 lg:grid-cols-4'>
         <img src={html} alt='logo' className='w-28'/>
