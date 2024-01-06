@@ -11,8 +11,9 @@ export default function Nave() {
         <span className='flex flex-col items-center justify-center text-2xl text-white mt-8 tracking-[.1em]'>Hey, I'm 
         </span>,
         <span className='flex items-center justify-center md:text-3xl text-2xl text-white tracking-[.1em]'>Luis Enrique Diaz</span>
-        <span className='flex items-center justify-center text-2xl text-white tracking-[.1em]'>Web Developer</span>
-        <span className='flex items-center justify-center text-2xl text-white tracking-[.1em]'>Testing QA</span>
+        <span className='flex items-center justify-center sm:text-xl md:text-2xl text-white tracking-[.1em]'>Front-End developer</span>
+        <span className='flex items-center justify-center sm:text-xl md:text-2xl text-white tracking-[.1em]'>Passionate about web design</span>
+        <span className='flex items-center justify-center sm:text-xl md:text-2xl text-white tracking-[.1em]'>and programming</span>
       <br></br>
       </div>
     </div>

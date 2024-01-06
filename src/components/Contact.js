@@ -2,6 +2,7 @@ import React from 'react'
 import email from '../assets/images/email.svg';
 import linke from '../assets/images/linke.svg';
 import git from '../assets/images/git.png';
+import cv from '../assets/images/cv.png';
 
 export default function Contact() {
   return (
@@ -10,20 +11,25 @@ export default function Contact() {
       <section className='flex items-center justify-center'>
       <h2 className=' text-white text-3xl font-bold mt-24'>CONTACT</h2>
       </section>
-        <div className='grid grid-cols-3 gap-8 mt-10 mb-10'>
+        <div className='grid grid-cols-4 gap-4 mt-10 mb-10'>
           <button className='transform transition-transform hover:scale-110 active:bg-blue-900  focus:outline-none focus:ring'type='button'>
           <a href="mailto:luismagnum1@gmail.com" target='_blank' rel="noreferrer">
-          <img src={email} alt='mail' className='w-20'/> 
+          <img src={email} alt='mail' className='w-16'/> 
           </a>
           </button>
           <button className='transform transition-transform hover:scale-110 active:bg-blue-900 rounded-xl focus:outline-none focus:ring'type='button'>
           <a href='https://www.linkedin.com/in/luis-enrique-diaz-brice%C3%B1o-b4662124b/ target=_blank'target='_blank' rel="noreferrer">
-          <img src={linke} alt='linkedin' className='w-20'/>
+          <img src={linke} alt='linkedin' className='w-16'/>
           </a>
           </button>
           <button className='transform transition-transform hover:scale-110 active:bg-blue-900 rounded-xl focus:outline-none focus:ring'type='button'>
           <a href='https://github.com/luismagnum'target='_blank' rel="noreferrer">
-          <img src={git} alt='git' className='w-20'/>
+          <img src={git} alt='git' className='w-16'/>
+          </a>
+          </button>
+          <button className='transform transition-transform hover:scale-110 active:bg-blue-900 rounded-xl focus:outline-none focus:ring'type='button'>
+          <a href='https://drive.google.com/file/d/1o6wd_ySg0KXraG956IApLQR1XUQmB2xI/view?usp=drive_link'target='_blank' rel="noreferrer">
+          <img src={cv} alt='git' className='w-14'/>
           </a>
           </button>
         </div>

@@ -5,7 +5,7 @@ function Player() {
   return (
     <div>
     <section className='grid place-items-center justify-center gap-1 pt-1'></section>
-     <h2 className='h-screen-500 text-center text-white text-3xl font-bold py-2 mt-24'>Simulacion Laboral</h2>
+     <h2 className='h-screen-500 text-center text-white text-3xl font-bold py-2 mt-24'>Labor Similarity</h2>
     <div className='flex text-center justify-center mx-auto p-16 mt-1'>
       <YouTubePlayer url='https://youtu.be/9sCCaaf3dqs?si=yBulvQNTWUFcFujH'
       controls
