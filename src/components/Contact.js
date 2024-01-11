@@ -28,7 +28,7 @@ export default function Contact() {
           </a>
           </button>
           <button className='transform transition-transform hover:scale-110 active:bg-blue-900 rounded-xl focus:outline-none focus:ring'type='button'>
-          <a href='https://drive.google.com/file/d/1o6wd_ySg0KXraG956IApLQR1XUQmB2xI/view?usp=drive_link'target='_blank' rel="noreferrer">
+          <a href='https://drive.google.com/file/d/1qB7lal9c0bee_1zD9ol5hgb2jWH6rhm_/view?usp=sharing'target='_blank' rel="noreferrer">
           <img src={cv} alt='git' className='w-14'/>
           </a>
           </button>
