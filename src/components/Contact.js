@@ -3,6 +3,7 @@ import email from '../assets/images/email.svg';
 import linke from '../assets/images/linke.svg';
 import git from '../assets/images/git.png';
 import cv from '../assets/images/cv.png';
+import br from '../assets/images/images/brasil.png'
 
 export default function Contact() {
   return (
@@ -11,7 +12,7 @@ export default function Contact() {
       <section className='flex items-center justify-center'>
       <h2 className=' text-white text-3xl font-bold mt-24'>CONTACT</h2>
       </section>
-        <div className='grid grid-cols-4 gap-4 mt-10 mb-10'>
+        <div className='grid sm:grid-cols-2 lg:grid-cols-5 gap-4 mt-10 mb-10'>
           <button className='transform transition-transform hover:scale-110 active:bg-blue-900  focus:outline-none focus:ring'type='button'>
           <a href="mailto:luismagnum1@gmail.com" target='_blank' rel="noreferrer">
           <img src={email} alt='mail' className='w-16'/> 
@@ -28,8 +29,13 @@ export default function Contact() {
           </a>
           </button>
           <button className='transform transition-transform hover:scale-110 active:bg-blue-900 rounded-xl focus:outline-none focus:ring'type='button'>
-          <a href='https://drive.google.com/file/d/1TO9CIz5-iOmU6ZHOqd_VS6C1-XYWRDzZ/view?usp=drive_link'target='_blank' rel="noreferrer">
+          <a href='https://drive.google.com/file/d/1EevPLSAgR1C6fAQ8paUMiqNvxvKdo_mQ/view?usp=sharing'target='_blank' rel="noreferrer">
           <img src={cv} alt='git' className='w-14'/>
+          </a>
+          </button>
+          <button className='transform transition-transform hover:scale-110 active:bg-blue-900 rounded-xl focus:outline-none focus:ring'type='button'>
+          <a href='https://drive.google.com/file/d/19RymRNo9llJ9Dc4LonrUXtnSGM_TEeA_/view?usp=sharing'target='_blank' rel="noreferrer">
+          <img src={br} alt='git' className='w-14'/>
           </a>
           </button>
         </div>

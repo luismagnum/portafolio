@@ -15,6 +15,8 @@ import jira from '../assets/images/jira.svg'
 import post from '../assets/images/postman.svg'
 import sql from '../assets/images/sql.svg'
 import xray from '../assets/images/xray.png'
+import angu from '../assets/images/images/angular.svg'
+import astr from '../assets/images/images/astro.png'
 
 
 export default function Skill() {
@@ -33,13 +35,13 @@ export default function Skill() {
         <img src={figm} alt='logo' className='w-32 mt-4'/>
         <img src={next} alt='logo'className='w-28'/>
         <img src={ts} alt='logo'className='w-28'/>
-        <img src={sas} alt='logo'className='w-28'/>
+        <img src={astr} alt='logo'className='w-28'/>
         <img src={bost} alt='logo'className='w-28'/>
         <img src={cypres} alt='logo'className='w-28'/>
         <img src={post} alt='logo'className='w-28'/>
         <img src={jira} alt='logo'className='mt-1 w-24'/>
         <img src={xray} alt='logo'className='ml-2 w-24 h-24 bg-white'/>
-        <img src={sql} alt='logo'className='ml-2 w-24 h-24 bg-white'/>
+        <img src={angu} alt='logo'className='ml-2 w-24 h-24 bg-white'/>
         </div>
     </div>
     </div>
