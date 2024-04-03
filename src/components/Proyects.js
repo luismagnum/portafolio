@@ -26,7 +26,7 @@ export default function Proyects() {
               <p className='my-2'>Diseño de paginas Web</p>
               <p>REACT-TAILWINDCSS</p>
                <button className='bg-[#011d41] px-6 py-2 font-semibold text-white rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-20 scale-0 group-hover:scale-125'>
-                <a href='https://www.speedweb.store/'target='_blank' rel="noreferrer">
+                <a href='https://luismagnum.github.io/speedweb/'target='_blank' rel="noreferrer">
                 WEB
                 </a>
                </button>
@@ -68,7 +68,7 @@ export default function Proyects() {
               <p className='my-2'>ECOMMERCE</p>
               <p>HTML y CSS</p>
                <button className='bg-[#011d41] px-6 py-2 font-semibold text-white rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-20 scale-0 group-hover:scale-125'>
-               <a href='https://www.saboresdevenezuela.online'target='_blank' rel="noreferrer">
+               <a href='https://luismagnum.github.io/saboresdevzla/'target='_blank' rel="noreferrer">
                 WEB
                </a>
                </button>
@@ -90,7 +90,7 @@ export default function Proyects() {
               <p className='my-2'>ECOMMERCE</p>
               <p>HTML y CSS</p>
                <button className='bg-[#011d41] px-6 py-2 font-semibold text-white rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-20 scale-0 group-hover:scale-125'>
-               <a href='https://www.speedgamers.online'target='_blank' rel="noreferrer">
+               <a href='https://luismagnum.github.io/speedgamers/'target='_blank' rel="noreferrer">
                 WEB
                </a>
                </button>
