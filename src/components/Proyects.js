@@ -3,8 +3,7 @@ import speed from '../assets/images/speed.svg'
 import sabores from '../assets/images/images/sabores.png';
 import teque from '../assets/images/teque.svg';
 import speedga from '../assets/images/speedga.svg';
-import movi from '../assets/images/movi.svg';
-import tequenos from '../assets/images/images/tequenos.svg';
+import movi from '../assets/images/images/movi.png';
 import dulces from '../assets/images/images/dulcesE.png';
 
 export default function Proyects() {
