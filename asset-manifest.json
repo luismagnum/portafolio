@@ -1,15 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.1f90e90c.css",
-    "main.js": "/static/js/main.c51bc8da.js",
+    "main.js": "/static/js/main.914ec998.js",
     "reactPlayerPreview.js": "/static/js/reactPlayerPreview.0bd7bb97.chunk.js",
     "static/media/image1.svg": "/static/media/image1.279fc39741921e135bac56f765b66673.svg",
     "static/media/speedga.svg": "/static/media/speedga.77c29290db43ac989f0a4f6e1f553353.svg",
     "static/media/speed.svg": "/static/media/speed.da43ea822f2629c150cd46954479bf54.svg",
-    "static/media/movi.svg": "/static/media/movi.174035a196f7102ca5ef6a2cf8b9e59e.svg",
-    "static/media/tequenos.svg": "/static/media/tequenos.c418d71d01780dbd8e7319fc9caf574f.svg",
     "static/media/teque.svg": "/static/media/teque.a04e6685bc303ccd7de086a69391739b.svg",
     "static/media/sabores.png": "/static/media/sabores.cfedc18bc561c9bbfc51.png",
+    "static/media/movi.png": "/static/media/movi.3ea86d3bd6fa17629fed.png",
     "static/media/dulcesE.png": "/static/media/dulcesE.3327c8eb3b667dc49fac.png",
     "static/media/xray.png": "/static/media/xray.8284ffcea91f6766efd1.png",
     "static/media/postman.svg": "/static/media/postman.c74cd48d00339ba03ff2e6ed3f9d0c4d.svg",
@@ -33,11 +32,11 @@
     "static/media/angular.svg": "/static/media/angular.844d225acae0afd02d7033d7af89546a.svg",
     "static/media/linke.svg": "/static/media/linke.9de6ddda1cea637a841ef3b7885ed49a.svg",
     "main.1f90e90c.css.map": "/static/css/main.1f90e90c.css.map",
-    "main.c51bc8da.js.map": "/static/js/main.c51bc8da.js.map",
+    "main.914ec998.js.map": "/static/js/main.914ec998.js.map",
     "reactPlayerPreview.0bd7bb97.chunk.js.map": "/static/js/reactPlayerPreview.0bd7bb97.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1f90e90c.css",
-    "static/js/main.c51bc8da.js"
+    "static/js/main.914ec998.js"
   ]
 }
