@@ -1,10 +1,10 @@
 import React from 'react'
 import speed from '../assets/images/speed.svg'
 import sabores from '../assets/images/images/sabores.png';
-import teque from '../assets/images/teque.svg';
 import speedga from '../assets/images/speedga.svg';
 import movi from '../assets/images/images/movi.png';
 import dulces from '../assets/images/images/dulcesE.png';
+import gemi from '../assets/images/images/gemi.png';
 
 export default function Proyects() {
   return (
@@ -59,15 +59,15 @@ export default function Proyects() {
        <div className='w-[300px] h-[420px] bg-transparent cursor-pointer group perspective'>
         <div className='relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000'>
          <div className='absolute backface-hidden border-2 w-full'>
-          <img src={teque} alt='' className='w-full h-full'/>
+          <img src={gemi} alt='' className='w-full h-full'/>
           </div>
            <div className='absolute my-rotate-y-180 backface-hidden w-full h-full bg-gray-100 overflow-hidden'>
             <div className='text-center flex flex-col items-center justify-center h-full text-gray-800 px-2 pb-24'>
-             <h1 className='text-3xl font-semibold'>Sabores de Vzla</h1>
-              <p className='my-2'>ECOMMERCE</p>
-              <p>HTML y CSS</p>
+             <h1 className='text-3xl font-semibold'>Gemini AI</h1>
+              <p className='my-2'>AI</p>
+              <p>REACT API</p>
                <button className='bg-[#011d41] px-6 py-2 font-semibold text-white rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-20 scale-0 group-hover:scale-125'>
-               <a href='https://luismagnum.github.io/saboresdevzla/'target='_blank' rel="noreferrer">
+               <a href='https://luismagnum.github.io/gemini/'target='_blank' rel="noreferrer">
                 WEB
                </a>
                </button>
