@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.671780b3.css",
-    "main.js": "/static/js/main.ac5a0c48.js",
+    "main.js": "/static/js/main.138d1b10.js",
     "reactPlayerPreview.js": "/static/js/reactPlayerPreview.0bd7bb97.chunk.js",
     "static/media/gamer.png": "/static/media/gamer.d2f994a0ba96ce59f198.png",
     "static/media/image1.svg": "/static/media/image1.279fc39741921e135bac56f765b66673.svg",
@@ -13,7 +13,6 @@
     "static/media/xray.png": "/static/media/xray.8284ffcea91f6766efd1.png",
     "static/media/postman.svg": "/static/media/postman.c74cd48d00339ba03ff2e6ed3f9d0c4d.svg",
     "static/media/bootstrap.svg": "/static/media/bootstrap.88d777cba9db1628fbcc4319e380caa5.svg",
-    "static/media/sass.svg": "/static/media/sass.c5cd6f68f5b9eebb4cec33efc11a0a12.svg",
     "static/media/sql.svg": "/static/media/sql.e2345086d43c1b17b077491a4761b0c5.svg",
     "static/media/react.svg": "/static/media/react.57a71da916289f16ea11ce827f0b810e.svg",
     "static/media/reactfoter.svg": "/static/media/reactfoter.57a71da916289f16ea11ce827f0b810e.svg",
@@ -22,21 +21,19 @@
     "static/media/css.svg": "/static/media/css.b3c0acbf83dd5d6e5ab455b9de967ab9.svg",
     "static/media/typescript.svg": "/static/media/typescript.1d9e662ca3b9ab5050954ac84e6caac2.svg",
     "index.html": "/index.html",
-    "static/media/cypres.svg": "/static/media/cypres.f726bd183f41877e2bb24ffc9e0e7ce3.svg",
     "static/media/html.svg": "/static/media/html.8c11e1a8364b520a311ac9bf8b5d2fbf.svg",
     "static/media/email.svg": "/static/media/email.ed2c0453346e3ec2c903c4568a727f97.svg",
     "static/media/tailwfo.svg": "/static/media/tailwfo.1ff53afb0748cd483d5f0ed13029f287.svg",
     "static/media/tailwindcss.svg": "/static/media/tailwindcss.1ff53afb0748cd483d5f0ed13029f287.svg",
-    "static/media/nextjs.svg": "/static/media/nextjs.d481baa666ee6d7066adffac03cfdedc.svg",
     "static/media/javasc.svg": "/static/media/javasc.eb9d2cb6a3b49394e8e20873cb00479e.svg",
     "static/media/angular.svg": "/static/media/angular.844d225acae0afd02d7033d7af89546a.svg",
     "static/media/linke.svg": "/static/media/linke.9de6ddda1cea637a841ef3b7885ed49a.svg",
     "main.671780b3.css.map": "/static/css/main.671780b3.css.map",
-    "main.ac5a0c48.js.map": "/static/js/main.ac5a0c48.js.map",
+    "main.138d1b10.js.map": "/static/js/main.138d1b10.js.map",
     "reactPlayerPreview.0bd7bb97.chunk.js.map": "/static/js/reactPlayerPreview.0bd7bb97.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.671780b3.css",
-    "static/js/main.ac5a0c48.js"
+    "static/js/main.138d1b10.js"
   ]
 }
