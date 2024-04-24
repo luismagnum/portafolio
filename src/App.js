@@ -2,11 +2,12 @@ import React from 'react';
 import './App.css';
 import Nave from './components/Nave';
 import Skill from './components/Skill';
-import Proyects from './components/Proyects';
+import ProyectCards from './components/ProyectCards';
 import Contact from './components/Contact';
 import Foter from './components/Foter';
 import Navbar from './components/Nabar';
 import Player from './components/Player';
+
 
 function App() {
   return (
@@ -19,8 +20,8 @@ function App() {
     <div id='Skill'>
       <Skill />
     </div>
-    <div id='Proyects'>
-      <Proyects />
+    <div id='ProyectCards'>
+      <ProyectCards />
     </div>
     <div id='Player'>
       <Player /> 

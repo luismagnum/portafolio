@@ -16,11 +16,11 @@ const Nabar = () => {
   return (
     <div className='fixed w-full top-0 z-10'>
       <div>
-        <div className='flex flex-row justify-between p-4 md:px-32 px-5 text-white bg-gray-800 shadow-[0_3px_10px_rgba(0,0,0,0.2)]'>
+        <div className='flex flex-row justify-between p-4 md:px-32 px-5 text-white bg-[#0c090d] shadow-[0_3px_10px_rgba(0,0,0,0.2)]'>
             <div className='flex flex-row items-center cursor-pointer'>
                 <span>
                 </span>
-                <h1 className='text-xl'>Luis Enrique Diaz</h1>
+                <h1 className='text-xl hover:text-teal-500'>Luis Enrique Diaz</h1>
             </div>
             <nav className='hidden md:flex flex-row items-center text-lg font-medium gap-8'>
                 <Link
@@ -28,7 +28,7 @@ const Nabar = () => {
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-gray-700 transition-all cursor-pointer'>
+                 className='hover:text-teal-500 transition-all cursor-pointer'>
                  Home
                  </Link>
                 <Link 
@@ -36,15 +36,15 @@ const Nabar = () => {
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-gray-700 transition-all cursor-pointer'>
+                 className='hover:text-teal-500 transition-all cursor-pointer'>
                  Skills
                  </Link>
                 <Link 
-                 to='Proyects'
+                 to='ProyectCards'
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-gray-700 transition-all cursor-pointer'>
+                 className='hover:text-teal-500 transition-all cursor-pointer'>
                  Proyects
                 </Link>
                 <Link 
@@ -52,7 +52,7 @@ const Nabar = () => {
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-gray-700 transition-all cursor-pointer'>
+                 className='hover:text-teal-500 transition-all cursor-pointer'>
                  NoCountry
                 </Link>
                 <Link 
@@ -60,7 +60,7 @@ const Nabar = () => {
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-gray-700 transition-all cursor-pointer'>
+                 className='hover:text-teal-500 transition-all cursor-pointer'>
                  Contact
                 </Link>
             </nav>
@@ -72,13 +72,13 @@ const Nabar = () => {
                 )}
             </div>
         </div>
-        <div className={`${menu ? "translate-x-0" : "-translate-x-full"} lg:hidden flex flex-col absolute bg-gray-800 text-white left-0 top-18 font-semibold text-2xl text-center pt-6 pb-4 gap-8 w-full h-fit transition-transform duration-300`}>
+        <div className={`${menu ? "translate-x-0" : "-translate-x-full"} lg:hidden flex flex-col absolute bg-[#0c090d] text-white left-0 top-18 font-semibold text-2xl text-center pt-6 pb-4 gap-8 w-full h-fit transition-transform duration-300`}>
         <Link
                  to='Nave'
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-gray-700 transition-all cursor-pointer'
+                 className='hover:text-teal-500 transition-all cursor-pointer'
                  onClick={closeMenu}>
                  Home
                  </Link>
@@ -87,16 +87,16 @@ const Nabar = () => {
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-gray-700 transition-all cursor-pointer'
+                 className='hover:text-teal-500 transition-all cursor-pointer'
                  onClick={closeMenu}>
                  Skills
                  </Link>
                 <Link 
-                 to='Proyects'
+                 to='ProyectCards'
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-gray-700 transition-all cursor-pointer'
+                 className='hover:text-teal-500 transition-all cursor-pointer'
                  onClick={closeMenu}>
                  Proyects
                 </Link>
@@ -105,7 +105,7 @@ const Nabar = () => {
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-gray-700 transition-all cursor-pointer'
+                 className='hover:text-teal-500 transition-all cursor-pointer'
                  onClick={closeMenu}>
                  NoCountry
                 </Link>
@@ -114,7 +114,7 @@ const Nabar = () => {
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-gray-700 transition-all cursor-pointer'
+                 className='hover:text-teal-500 transition-all cursor-pointer'
                  onClick={closeMenu}>
                  Contact
                 </Link>
