@@ -3,7 +3,7 @@ import gem from '../assets/images/images/gemini.png';
 import dulc from '../assets/images/images/dulces.png';
 import sab from '../assets/images/images/sabor.png';
 import speed from '../assets/images/images/speed.png';
-import game from '../assets/images/images/gamer.png';
+import deliver from '../assets/images/images/deliver.png';
 import movi from '../assets/images/images/movie.png';
 
 export default function ProyectCards() {
@@ -73,7 +73,7 @@ export default function ProyectCards() {
           </a>
         </button>
         <button class="text-sm bg-teal-500 px-3 py-1 rounded-lg mx-auto mt-4">
-          <a href='https://luismagnum.github.io/sabores/'target='_blank' rel='norreferrer' className='flex gap-1'>deploy<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+          <a href='https://luismagnum.github.io/sabores/' target='_blank' rel='norreferrer' className='flex gap-1'>deploy<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
           <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
           </svg>
           </a>
@@ -89,13 +89,13 @@ export default function ProyectCards() {
           solucion para lograr captar mas clientes y asi aumentar las ventas de su negocio.</p>
         <div class="flex flex-row mx-auto card-actions justify-between gap-2">
         <button class="text-sm bg-teal-500 px-3 py-1 rounded-lg mx-auto mt-4">
-          <a href='https://github.com/luismagnum/speedweb'target='_blank'rel='norreferrer'className='flex gap-1'>git hub <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+          <a href='https://github.com/luismagnum/speedweb' target='_blank'rel='norreferrer'className='flex gap-1'>git hub <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
           <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
           </svg>
           </a>
         </button>
         <button class="text-sm  bg-teal-500 px-3 py-1 rounded-lg mx-auto mt-4">
-          <a href='https://luismagnum.github.io/speedweb/'target='_blank' rel='norreferrer' className='flex gap-1'>deploy<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+          <a href='https://luismagnum.github.io/speedweb/' target='_blank' rel='norreferrer' className='flex gap-1'>deploy<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
           <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
           </svg>
           </a>
@@ -104,20 +104,21 @@ export default function ProyectCards() {
       </div>
     </div>
     <div class="text-center justify-center mx-auto card w-80 border-none">
-        <figure><img src={game} alt="Shoes" className='rounded-md'/></figure>
+        <figure><img src={deliver} alt="Shoes" className='rounded-md'/></figure>
         <div class="card-body bg-[#0c090d]">
-        <h2 class="text-white card-title font-bold">Html Css js</h2>
-        <p className='text-white'> La aplicación es un ecommerce dirijido a un publico joven el cual le permite comprar,
-          en una pagina muy intuitiva de una manera facil, los ultimos titulos en videojuegos para su disfrute.</p>
+        <h2 class="text-white card-title font-bold">Astro Tailwindcss</h2>
+        <p className='text-white'> La aplicación es una landing page, diseñada con el framework astro 
+          . Brindando varias opciones
+          para un servicio de delivery de comida rapida directo a la comodidad de tu hogar.</p>
         <div class="flex flex-row mx-auto card-actions justify-between gap-2">
         <button class="text-sm bg-teal-500 px-3 py-1 rounded-lg mx-auto mt-4">
-          <a href='https://github.com/luismagnum/speedgamers'target='_blank'rel='norreferrer'className='flex gap-1'>git hub <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+          <a href='https://github.com/luismagnum/delivery'target='_blank'rel='norreferrer'className='flex gap-1'>git hub <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
           <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
           </svg>
           </a>
         </button>
         <button class="text-sm bg-teal-500 px-3 py-1 rounded-lg mx-auto mt-4">
-          <a href='https://luismagnum.github.io/speedgamers/'target='_blank' rel='norreferrer' className='flex gap-1'>deploy<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+          <a href='https://spontaneous-sunshine-99ff47.netlify.app/'target='_blank' rel='norreferrer' className='flex gap-1'>deploy<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
           <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
           </svg>
           </a>
@@ -133,7 +134,7 @@ export default function ProyectCards() {
          cinematograficos a nivel mundial. Para luego elegir confortablemente que pelicula ver.</p>
         <div class="flex flex-row mx-auto card-actions justify-between gap-2">
         <button class="text-sm  bg-teal-500 px-3 py-1 rounded-lg mx-auto mt-4">
-          <a href='https://github.com/luismagnum/movies'target='_blank'rel='norreferrer'className='flex gap-1'>git hub <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+          <a href='https://github.com/luismagnum/movies'target='_blank' rel='norreferrer' className='flex gap-1'>git hub <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
           <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
           </svg>
           </a>
