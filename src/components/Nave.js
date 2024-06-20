@@ -1,11 +1,12 @@
 import React from 'react'
 import image1 from '../assets/images/image1.svg';
+import fotosin from '../assets/images/images/fotosin.png'
 export default function Nave() {
   return (
   <div className='h-screen-500 md:grid grid-cols-2 place-items-center justify-center mt-10 '>
      
       <div className='flex align-items-center justify-around h-96 md:ml-14'>
-      <img src={image1} alt='foto' className='flex items-center justify-center w-56 h-54 mt-20'/>
+      <img src={fotosin} alt='foto' className='flex items-center justify-center w-56 h-54 mt-20'/>
       </div>
       <div className='md:mr-10'>
         <span className='flex flex-col items-center justify-center text-4xl text-teal-500 mt-28 tracking-[.1em]'>Hey, I'm 
