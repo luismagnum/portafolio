@@ -1,5 +1,5 @@
 import React from 'react'
-import image1 from '../assets/images/image1.svg';
+import image1 from '../assets/images/images/imag1.png';
 import fotosin from '../assets/images/images/fotosin.png'
 export default function Nave() {
   return (
