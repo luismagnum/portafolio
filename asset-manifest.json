@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.671780b3.css",
-    "main.js": "/static/js/main.ad1cce7f.js",
+    "main.css": "/static/css/main.2466e357.css",
+    "main.js": "/static/js/main.1a290a40.js",
     "reactPlayerPreview.js": "/static/js/reactPlayerPreview.0bd7bb97.chunk.js",
-    "static/media/image1.svg": "/static/media/image1.279fc39741921e135bac56f765b66673.svg",
+    "static/media/imag1.png": "/static/media/imag1.f390bc89d84d5b6b6d21.png",
     "static/media/dulces.png": "/static/media/dulces.8ecd6dd8020d8fa7b56f.png",
     "static/media/speed.png": "/static/media/speed.5ff1f1daf6cebfd52303.png",
     "static/media/sabor.png": "/static/media/sabor.4ac267f76b853e24fe4b.png",
@@ -28,12 +28,12 @@
     "static/media/javasc.svg": "/static/media/javasc.eb9d2cb6a3b49394e8e20873cb00479e.svg",
     "static/media/angular.svg": "/static/media/angular.844d225acae0afd02d7033d7af89546a.svg",
     "static/media/linke.svg": "/static/media/linke.9de6ddda1cea637a841ef3b7885ed49a.svg",
-    "main.671780b3.css.map": "/static/css/main.671780b3.css.map",
-    "main.ad1cce7f.js.map": "/static/js/main.ad1cce7f.js.map",
+    "main.2466e357.css.map": "/static/css/main.2466e357.css.map",
+    "main.1a290a40.js.map": "/static/js/main.1a290a40.js.map",
     "reactPlayerPreview.0bd7bb97.chunk.js.map": "/static/js/reactPlayerPreview.0bd7bb97.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.671780b3.css",
-    "static/js/main.ad1cce7f.js"
+    "static/css/main.2466e357.css",
+    "static/js/main.1a290a40.js"
   ]
 }
