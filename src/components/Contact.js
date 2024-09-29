@@ -10,7 +10,7 @@ export default function Contact() {
     <div>
       <div className='grid place-items-center justify-center w-screen'>
       <section className='flex items-center justify-center'>
-      <h2 className=' text-white text-3xl font-bold mt-24'>CONTACT</h2>
+      <h2 className=' text-teal-500 text-3xl font-bold mt-24'>CONTACT</h2>
       </section>
         <div className='grid grid-cols-2 lg:grid-cols-5 gap-4 mt-10 mb-10'>
           <button className='transform transition-transform hover:scale-110 active:bg-blue-900  focus:outline-none focus:ring'type='button'>

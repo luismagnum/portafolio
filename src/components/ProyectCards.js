@@ -10,146 +10,51 @@ export default function ProyectCards() {
   return (
     <div>
       <section className='flex items-center justify-center'>
-      <h2 className=' text-white text-3xl font-bold mt-24'>PROYECTS</h2>
+        <h2 className='text-teal-500 text-4xl font-bold mt-24'>PROYECTOS</h2>
       </section>
-    <div className='md:grid grid-cols-3 gap-4 p-2 mt-24'>
-      <div class="text-center justify-center mx-auto card w-80 border-none">
-        <figure><img src={gem} alt="Shoes" className='rounded-md '/></figure>
-        <div class="card-body bg-[#0c090d]">
-        <h2 class="card-title font-bold text-white">React Api</h2>
-        <p className='text-white'> La aplicación simula algunas de las funcionalidades del chatbot original de Gemini,
-          permitiendo a los usuarios interactuar con un modelo de inteligencia artificial conversacional.</p>
-        <div class="flex flex-row mx-auto card-actions justify-between gap-2">
-        <button class="text-sm bg-teal-500 px-3 py-1 rounded-lg mx-auto mt-4">
-          <a href='https://github.com/luismagnum/gemini'target='_blank'rel='norreferrer'className='flex gap-1'>git hub <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-          </svg>
-          </a>
-        </button>
-        <button class="text-sm  bg-teal-500 px-3 py-1 rounded-lg mx-auto mt-4">
-          <a href='https://luismagnum.github.io/gemini/'target='_blank' rel='norreferrer' className='flex gap-1'>deploy<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-          </svg>
-          </a>
-        </button>
-        </div>
+      <div className='md:grid grid-cols-3 gap-8 p-4 mt-24'>
+        {[{
+          img: gem, title: "React Api", desc: "La aplicación simula funciones de Gemini...",
+          git: "https://github.com/luismagnum/gemini", deploy: "https://luismagnum.github.io/gemini/"
+        },
+        {
+          img: dulc, title: "React Nextjs", desc: "Sitio web construido con React y Nextjs...",
+          git: "https://github.com/luismagnum/dulces", deploy: "https://dulces-wnyp.vercel.app"
+        },
+        {
+          img: sab, title: "React Tailwindcss", desc: "Un ecommerce para venta de comida rápida...",
+          git: "https://github.com/luismagnum/reactnav", deploy: "https://luismagnum.github.io/reactnav/"
+        },
+        {
+          img: speed, title: "Landing Page", desc: "Landing page para atraer más clientes...",
+          git: "https://github.com/luismagnum/website", deploy: "https://luismagnum.github.io/website/"
+        },
+        {
+          img: deliver, title: "Astro Tailwindcss", desc: "Landing page para delivery de comida...",
+          git: "https://github.com/luismagnum/delivery", deploy: "https://spontaneous-sunshine-99ff47.netlify.app/"
+        },
+        {
+          img: movi, title: "React Api", desc: "Aplicación para ver los últimos estrenos...",
+          git: "https://github.com/luismagnum/movies", deploy: "https://luismagnum.github.io/movies/"
+        }].map((project, i) => (
+          <div key={i} className="text-center justify-center mx-auto card w-80 border-none hover:scale-105 transition-all duration-300 ease-in-out mb-2">
+            <figure><img src={project.img} alt={project.title} className='rounded-md object-cover'/></figure>
+            <div className="card-body bg-[#0c090d] rounded-b-lg">
+              <h2 className="card-title font-bold text-teal-500 text-xl">{project.title}</h2>
+              <p className='text-teal-500 text-sm mt-2'>{project.desc}</p>
+              <div className="flex flex-row mx-auto card-actions justify-between gap-2">
+                <button className="text-sm bg-teal-500 px-4 py-2 rounded-lg mx-auto mt-4 hover:bg-teal-600 transition-colors">
+                  <a href={project.git} target='_blank' rel='norreferrer' className='text-gray-950 flex gap-1 font-semibold'>GitHub</a>
+                </button>
+                <button className="text-sm bg-teal-500 px-4 py-2 rounded-lg mx-auto mt-4 hover:bg-teal-600 transition-colors">
+                  <a href={project.deploy} target='_blank' rel='norreferrer' className='text-gray-950 flex gap-1 font-semibold'>Deploy</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        ))}
       </div>
     </div>
-      <div class="text-center justify-center mx-auto card w-80 border-none">
-        <figure><img src={dulc} alt="Shoes" className='rounded-md'/></figure>
-        <div class="card-body bg-[#0c090d]">
-        <h2 class="text-white card-title font-bold mt-2">React Nextjs</h2>
-        <p className='text-white'>
-        Nuestro sitio web está construido utilizando React, una biblioteca JavaScript de código abierto,
-        y aprovechando las características potentes de Nextjs 14.
-        </p>
-        <div class="flex flex-row mx-auto card-actions justify-between gap-2">
-        <button class="text-sm bg-teal-500 px-3 py-1 rounded-lg mx-auto mt-4">
-          <a href='https://github.com/luismagnum/dulces'target='_blank'rel='norreferrer'className='flex gap-1'>git hub <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-          </svg>
-          </a>
-        </button>
-        <button class="text-sm bg-teal-500 px-3 py-1 rounded-lg mx-auto mt-4">
-          <a href='https://dulces-wnyp.vercel.app'target='_blank' rel='norreferrer' className='flex gap-1'>deploy<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-          </svg>
-          </a>
-        </button>
-        </div>
-      </div>
-    </div>
-    <div class="text-center justify-center mx-auto card w-80 border-none">
-        <figure><img src={sab} alt="Shoes" className='rounded-md'/></figure>
-        <div class="card-body bg-[#0c090d]">
-        <h2 class="text-white card-title font-bold mt-3">React tailwindcss</h2>
-        <p className='text-white'> La aplicación es un ecommerce para la venta de comida rapida, en donde el 
-          usuario de una manera comoda y de agradable visualizacion escoje comprar de una manera rapida y facil.</p>
-        <div class="flex flex-row mx-auto card-actions justify-between gap-2">
-        <button class="text-sm  bg-teal-500 px-3 py-1 rounded-lg mx-auto mt-4">
-          <a href='https://github.com/luismagnum/reactnav'target='_blank'rel='norreferrer'className='flex gap-1'>git hub <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-          </svg>
-          </a>
-        </button>
-        <button class="text-sm bg-teal-500 px-3 py-1 rounded-lg mx-auto mt-4">
-          <a href='https://luismagnum.github.io/reactnav/' target='_blank' rel='norreferrer' className='flex gap-1'>deploy<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-          </svg>
-          </a>
-        </button>
-        </div>
-      </div>
-    </div>
-    <div class="text-center justify-center mx-auto card w-80 border-none">
-        <figure><img src={speed} alt="Shoes" className='rounded-md'/></figure>
-        <div class="card-body bg-[#0c090d]">
-        <h2 class="text-white card-title font-bold mt-2">React styled</h2>
-        <p className='text-white'> La aplicación es una landing page diseñada para ofrecer a nuestros clientes, una 
-          solucion para lograr captar mas clientes y asi aumentar las ventas de su negocio.</p>
-        <div class="flex flex-row mx-auto card-actions justify-between gap-2">
-        <button class="text-sm bg-teal-500 px-3 py-1 rounded-lg mx-auto mt-4">
-          <a href='https://github.com/luismagnum/speedweb' target='_blank'rel='norreferrer'className='flex gap-1'>git hub <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-          </svg>
-          </a>
-        </button>
-        <button class="text-sm  bg-teal-500 px-3 py-1 rounded-lg mx-auto mt-4">
-          <a href='https://luismagnum.github.io/speedweb/' target='_blank' rel='norreferrer' className='flex gap-1'>deploy<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-          </svg>
-          </a>
-        </button>
-        </div>
-      </div>
-    </div>
-    <div class="text-center justify-center mx-auto card w-80 border-none">
-        <figure><img src={deliver} alt="Shoes" className='rounded-md'/></figure>
-        <div class="card-body bg-[#0c090d]">
-        <h2 class="text-white card-title font-bold">Astro Tailwindcss</h2>
-        <p className='text-white'> La aplicación es una landing page, diseñada con el framework astro 
-          . Brindando varias opciones
-          para un servicio de delivery de comida rapida directo a la comodidad de tu hogar.</p>
-        <div class="flex flex-row mx-auto card-actions justify-between gap-2">
-        <button class="text-sm bg-teal-500 px-3 py-1 rounded-lg mx-auto mt-4">
-          <a href='https://github.com/luismagnum/delivery'target='_blank'rel='norreferrer'className='flex gap-1'>git hub <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-          </svg>
-          </a>
-        </button>
-        <button class="text-sm bg-teal-500 px-3 py-1 rounded-lg mx-auto mt-4">
-          <a href='https://spontaneous-sunshine-99ff47.netlify.app/'target='_blank' rel='norreferrer' className='flex gap-1'>deploy<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-          </svg>
-          </a>
-        </button>
-        </div>
-      </div>
-    </div>
-    <div class="text-center justify-center mx-auto card w-80 border-none">
-        <figure><img src={movi} alt="Shoes" className='rounded-md'/></figure>
-        <div class="card-body bg-[#0c090d]">
-        <h2 class="text-white card-title font-bold">React Api</h2>
-        <p className='text-white'>Esta aplicacion te permite de una forma rapida estar al dia con los ultimos estrenos
-         cinematograficos a nivel mundial. Para luego elegir confortablemente que pelicula ver.</p>
-        <div class="flex flex-row mx-auto card-actions justify-between gap-2">
-        <button class="text-sm  bg-teal-500 px-3 py-1 rounded-lg mx-auto mt-4">
-          <a href='https://github.com/luismagnum/movies'target='_blank' rel='norreferrer' className='flex gap-1'>git hub <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-          </svg>
-          </a>
-        </button>
-        <button class="text-sm  bg-teal-500 px-3 py-1 rounded-lg mx-auto mt-4">
-          <a href='https://luismagnum.github.io/movies/'target='_blank' rel='norreferrer' className='flex gap-1'>deploy<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-          </svg>
-          </a>
-        </button>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
   )
 }
 
