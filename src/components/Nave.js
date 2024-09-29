@@ -7,7 +7,7 @@ export default function Nave() {
       <img
         src={fotosin}
         alt='foto'
-        className='flex items-center justify-center w-56 h-54 mt-20 border-4 border-teal-500 rounded-lg shadow-lg'
+        className='flex items-center justify-center w-48 h-48 mt-20 border-4 border-teal-500 rounded-lg shadow-lg'
       />
     </div>
     <div className='md:mr-10'>

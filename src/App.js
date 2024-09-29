@@ -11,9 +11,9 @@ import Player from './components/Player';
 
 function App() {
   return (
+  <main className='overflow-x-hidden'>
    <div>
    <Navbar />
-   <main>
     <div id='Nave'>
       <Nave />
     </div>
@@ -32,8 +32,8 @@ function App() {
     <div>
       <Foter/>
     </div>
+    </div>
    </main>
-  </div>
   )
 }
 

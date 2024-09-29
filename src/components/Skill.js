@@ -21,25 +21,25 @@ export default function Skill() {
   return (
     <div>
     <section className='grid place-items-center justify-center gap-1 pt-1'></section>
-    <h2 className='h-screen-500 text-center text-teal-500 text-3xl font-bold py-2 mt-16'>TECHNOLOGY</h2>
+    <h2 className='h-screen-500 text-center justify-items-center text-teal-500 text-3xl font-bold py-2 mt-16'>TECHNOLOGY</h2>
     <div className='mt-10 mb-10 ml-16 mx-10 gap-8 h-100 flex items-center justify-center'>
-        <div className='grid grid-cols-2 gap-10 mt-2 m-auto md:grid-cols-4 lg:grid-cols-4'>
-        <img src={html} alt='logo' className='w-24'/>
-        <img src={css} alt='logo'className='w-24'/>
-        <img src={js} alt='logo'className='w-20 h-24'/>
-        <img src={react} alt='logo'className='w-24'/>
-        <img src={tailw} alt='logo' className='w-24'/>
-        <img src={git} alt='logo'className='w-24'/>
-        <img src={figm} alt='logo' className='w-32 mt-4'/>
-        <img src={next} alt='logo'className='w-24'/>
-        <img src={ts} alt='logo'className='w-24'/>
-        <img src={astr} alt='logo'className='w-24'/>
-        <img src={bost} alt='logo'className='w-24'/>
-        <img src={cypres} alt='logo'className='w-24'/>
-        <img src={post} alt='logo'className='w-24'/>
-        <img src={jira} alt='logo'className='mt-1 w-20'/>
-        <img src={xray} alt='logo'className='ml-2 w-20 h-24 bg-white'/>
-        <img src={angu} alt='logo'className='ml-2 w-20 h-24 bg-white'/>
+        <div className='grid grid-cols-4 gap-8 mt-2 mx-auto md:grid-cols-3 lg:grid-cols-6'>
+        <img src={html} alt='logo' className='w-10 md:w-28'/>
+        <img src={css} alt='logo'className='w-10 md:w-28'/>
+        <img src={js} alt='logo'className='w-10 md:w-28'/>
+        <img src={react} alt='logo'className='w-10 md:w-28'/>
+        <img src={tailw} alt='logo' className='w-10 md:w-28'/>
+        <img src={git} alt='logo'className='w-10 md:w-28'/>
+        <img src={figm} alt='logo' className='w-10 md:w-28'/>
+        <img src={next} alt='logo'className='w-10 md:w-28'/>
+        <img src={ts} alt='logo'className='w-10 md:w-28'/>
+        <img src={astr} alt='logo'className='w-10 md:w-28'/>
+        <img src={bost} alt='logo'className='w-10 md:w-28'/>
+        <img src={cypres} alt='logo'className='w-10 md:w-28'/>
+        <img src={post} alt='logo'className='w-10 md:w-28'/>
+        <img src={jira} alt='logo'className='w-10 md:w-28'/>
+        <img src={xray} alt='logo'className='w-10 md:w-28'/>
+        <img src={angu} alt='logo'className='w-10 md:w-28'/>
         </div>
     </div>
     </div>
