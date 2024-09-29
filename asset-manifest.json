@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.366efd7b.css",
-    "main.js": "/static/js/main.a7953b2c.js",
+    "main.css": "/static/css/main.a39765ec.css",
+    "main.js": "/static/js/main.40f26e88.js",
     "reactPlayerPreview.js": "/static/js/reactPlayerPreview.e6420af3.chunk.js",
     "static/media/dulces.png": "/static/media/dulces.8ecd6dd8020d8fa7b56f.png",
     "static/media/speed.png": "/static/media/speed.5ff1f1daf6cebfd52303.png",
@@ -27,12 +27,12 @@
     "static/media/javasc.svg": "/static/media/javasc.eb9d2cb6a3b49394e8e20873cb00479e.svg",
     "static/media/angular.svg": "/static/media/angular.844d225acae0afd02d7033d7af89546a.svg",
     "static/media/linke.svg": "/static/media/linke.9de6ddda1cea637a841ef3b7885ed49a.svg",
-    "main.366efd7b.css.map": "/static/css/main.366efd7b.css.map",
-    "main.a7953b2c.js.map": "/static/js/main.a7953b2c.js.map",
+    "main.a39765ec.css.map": "/static/css/main.a39765ec.css.map",
+    "main.40f26e88.js.map": "/static/js/main.40f26e88.js.map",
     "reactPlayerPreview.e6420af3.chunk.js.map": "/static/js/reactPlayerPreview.e6420af3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.366efd7b.css",
-    "static/js/main.a7953b2c.js"
+    "static/css/main.a39765ec.css",
+    "static/js/main.40f26e88.js"
   ]
 }
