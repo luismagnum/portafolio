@@ -13,7 +13,6 @@ import ts from '../assets/images/images/typescript.svg'
 import jira from '../assets/images/jira.svg'
 import post from '../assets/images/postman.svg'
 import xray from '../assets/images/xray.png'
-import angu from '../assets/images/images/angular.svg'
 import astr from '../assets/images/images/astr.png'
 
 
@@ -30,7 +29,7 @@ export default function Skill() {
         <img src={react} alt='logo'className='w-10 md:w-28'/>
         <img src={tailw} alt='logo' className='w-10 md:w-28'/>
         <img src={git} alt='logo'className='w-10 md:w-28'/>
-        <img src={figm} alt='logo' className='w-10 md:w-28'/>
+        <img src={figm} alt='logo' className='mt-2 w-10 md:w-28'/>
         <img src={next} alt='logo'className='w-10 md:w-28'/>
         <img src={ts} alt='logo'className='w-10 md:w-28'/>
         <img src={astr} alt='logo'className='w-10 md:w-28'/>
@@ -39,7 +38,6 @@ export default function Skill() {
         <img src={post} alt='logo'className='w-10 md:w-28'/>
         <img src={jira} alt='logo'className='w-10 md:w-28'/>
         <img src={xray} alt='logo'className='w-10 md:w-28'/>
-        <img src={angu} alt='logo'className='w-10 md:w-28'/>
         </div>
     </div>
     </div>

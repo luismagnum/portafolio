@@ -29,13 +29,13 @@ export default function Contact() {
           </a>
           </button>
           <button className='transform transition-transform hover:scale-110 active:bg-blue-900 rounded-xl focus:outline-none focus:ring'type='button'>
-          <a href='https://drive.google.com/file/d/1GAQ5OXBQHuuwkXcnhouOVxLRUVjeZ0_c/view?usp=sharing'target='_blank' rel="noreferrer">
-          <img src={cv} alt='git' className='w-14'/>
+          <a href='https://drive.google.com/file/d/1R01nj5WEPLv9pBC9bcA5pQCrCULH_1OE/view?usp=sharing'target='_blank' rel="noreferrer">
+          <img src={cv} alt='git' className='w-14' />
           </a>
           </button>
           <button className='transform transition-transform hover:scale-110 active:bg-blue-900 rounded-xl focus:outline-none focus:ring'type='button'>
           <a href='https://drive.google.com/file/d/1T0-zZuLvm8BUZdQ22tpTzF02zKRaFfvK/view?usp=sharing'target='_blank' rel="noreferrer">
-          <img src={br} alt='git' className='w-14'/>
+          <img src={br} alt='git' className='mt-4 w-14'/>
           <p className='text-[8px] text-teal-500'>cv</p>
           </a>
           </button>
