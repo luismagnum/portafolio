@@ -16,7 +16,7 @@ const Nabar = () => {
   return (
     <div className='fixed w-full top-0 z-10'>
       <div>
-        <div className='flex flex-row justify-between p-4 md:px-32 px-5 text-teal-500 hover:text-teal-300 bg-[#0c090d] shadow-[0_3px_10px_rgba(0,0,0,0.2)]'>
+        <div className='flex flex-row justify-between p-4 md:px-32 px-5 text-teal-500 hover:text-teal-300 bg-gray-900 shadow-[0_3px_10px_rgba(0,0,0,0.2)]'>
             <div className='flex flex-row items-center cursor-pointer'>
                 <span>
                 </span>
@@ -72,7 +72,7 @@ const Nabar = () => {
                 )}
             </div>
         </div>
-        <div className={`${menu ? "translate-x-0" : "-translate-x-full"} lg:hidden flex flex-col absolute bg-[#0c090d] text-teal-500 left-0 top-18 font-semibold text-2xl text-center pt-6 pb-4 gap-8 w-full h-fit transition-transform duration-300`}>
+        <div className={`${menu ? "translate-x-0" : "-translate-x-full"} lg:hidden flex flex-col absolute bg-gray-900 text-teal-500 left-0 top-18 font-semibold text-2xl text-center pt-6 pb-4 gap-8 w-full h-fit transition-transform duration-300`}>
         <Link
                  to='Nave'
                  spy={true} 

@@ -22,7 +22,7 @@ export default function Skill() {
     <section className='grid place-items-center justify-center gap-1 pt-1'></section>
     <h2 className='h-screen-500 text-center justify-items-center text-teal-500 text-3xl font-bold py-2 mt-16'>TECHNOLOGY</h2>
     <div className='mt-10 mb-10 ml-16 mx-10 gap-8 h-100 flex items-center justify-center'>
-        <div className='grid grid-cols-4 gap-8 mt-2 mx-auto md:grid-cols-3 lg:grid-cols-6'>
+        <div className='grid grid-cols-4 gap-8 mt-2 mx-auto md:grid-cols-3 lg:grid-cols-5'>
         <img src={html} alt='logo' className='w-10 md:w-28'/>
         <img src={css} alt='logo'className='w-10 md:w-28'/>
         <img src={js} alt='logo'className='w-10 md:w-28'/>

@@ -1,47 +1,41 @@
-import React from 'react'
+import React from 'react';
 import email from '../assets/images/email.svg';
 import linke from '../assets/images/linke.svg';
 import git from '../assets/images/git.png';
 import cv from '../assets/images/cv.png';
-import br from '../assets/images/images/brasil.png'
+import br from '../assets/images/images/brasil.png';
 
 export default function Contact() {
+  const contacts = [
+    { img: email, alt: "mail", link: "mailto:luismagnum1@gmail.com" },
+    { img: linke, alt: "linkedin", link: "https://www.linkedin.com/in/luis-enrique-diaz-brice%C3%B1o-b4662124b/" },
+    { img: git, alt: "github", link: "https://github.com/luismagnum" },
+    { img: cv, alt: "cv", link: "https://drive.google.com/file/d/1R01nj5WEPLv9pBC9bcA5pQCrCULH_1OE/view?usp=sharing" },
+    { img: br, alt: "cv brasil", link: "https://drive.google.com/file/d/1T0-zZuLvm8BUZdQ22tpTzF02zKRaFfvK/view?usp=sharing", extra: true },
+  ];
+
   return (
-    <div>
-      <div className='grid place-items-center justify-center w-screen'>
-      <section className='flex items-center justify-center'>
-      <h2 className=' text-teal-500 text-3xl font-bold mt-24'>CONTACT</h2>
-      </section>
-        <div className='grid grid-cols-2 lg:grid-cols-5 gap-4 mt-10 mb-10'>
-          <button className='transform transition-transform hover:scale-110 active:bg-blue-900  focus:outline-none focus:ring'type='button'>
-          <a href="mailto:luismagnum1@gmail.com" target='_blank' rel="noreferrer">
-          <img src={email} alt='mail' className='w-16'/> 
+    <div className="flex flex-col items-center w-full py-12">
+      <h2 className="text-teal-500 text-3xl font-bold">CONTACT</h2>
+
+      <div className="grid grid-cols-2 lg:grid-cols-5 gap-6 mt-10">
+        {contacts.map((contact, index) => (
+          <a
+            key={index}
+            href={contact.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-col items-center transform transition-transform hover:scale-110"
+          >
+            <img
+              src={contact.img}
+              alt={contact.alt}
+              className="w-16 rounded-full"
+            />
+            {contact.extra && <p className="text-[8px] text-teal-500 mt-1">CV</p>}
           </a>
-          </button>
-          <button className='transform transition-transform hover:scale-110 active:bg-blue-900 rounded-xl focus:outline-none focus:ring'type='button'>
-          <a href='https://www.linkedin.com/in/luis-enrique-diaz-brice%C3%B1o-b4662124b/ target=_blank'target='_blank' rel="noreferrer">
-          <img src={linke} alt='linkedin' className='w-16'/>
-          </a>
-          </button>
-          <button className='transform transition-transform hover:scale-110 active:bg-blue-900 rounded-xl focus:outline-none focus:ring'type='button'>
-          <a href='https://github.com/luismagnum'target='_blank' rel="noreferrer">
-          <img src={git} alt='git' className='w-16'/>
-          </a>
-          </button>
-          <button className='transform transition-transform hover:scale-110 active:bg-blue-900 rounded-xl focus:outline-none focus:ring'type='button'>
-          <a href='https://drive.google.com/file/d/1R01nj5WEPLv9pBC9bcA5pQCrCULH_1OE/view?usp=sharing'target='_blank' rel="noreferrer">
-          <img src={cv} alt='git' className='w-14' />
-          </a>
-          </button>
-          <button className='transform transition-transform hover:scale-110 active:bg-blue-900 rounded-xl focus:outline-none focus:ring'type='button'>
-          <a href='https://drive.google.com/file/d/1T0-zZuLvm8BUZdQ22tpTzF02zKRaFfvK/view?usp=sharing'target='_blank' rel="noreferrer">
-          <img src={br} alt='git' className='mt-4 w-14'/>
-          <p className='text-[8px] text-teal-500'>cv</p>
-          </a>
-          </button>
-        </div>
+        ))}
+      </div>
     </div>
-    </div>
-        
-  )
+  );
 }
