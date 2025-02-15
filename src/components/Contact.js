@@ -10,7 +10,7 @@ export default function Contact() {
     { img: email, alt: "mail", link: "mailto:luismagnum1@gmail.com" },
     { img: linke, alt: "linkedin", link: "https://www.linkedin.com/in/luis-enrique-diaz-brice%C3%B1o-b4662124b/" },
     { img: git, alt: "github", link: "https://github.com/luismagnum" },
-    { img: cv, alt: "cv", link: "https://drive.google.com/file/d/1R01nj5WEPLv9pBC9bcA5pQCrCULH_1OE/view?usp=sharing" },
+    { img: cv, alt: "cv", link: "https://drive.google.com/file/d/1VF5e5JLR2IV6YIZNsepQXHW_NZaplw3s/view?usp=sharing" },
     { img: br, alt: "cv brasil", link: "https://drive.google.com/file/d/1T0-zZuLvm8BUZdQ22tpTzF02zKRaFfvK/view?usp=sharing", extra: true },
   ];
 

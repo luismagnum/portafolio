@@ -1,6 +1,6 @@
 import React from 'react';
 import gem from '../assets/images/images/gemini.png';
-import dulc from '../assets/images/images/dulces.png';
+import curso from '../assets/images/images/cursos.png';
 import sab from '../assets/images/images/sabor.png';
 import speed from '../assets/images/images/speed.png';
 import deliver from '../assets/images/images/deliver.png';
@@ -9,7 +9,7 @@ import movi from '../assets/images/images/movie.png';
 export default function ProyectCards() {
   const projects = [
     { img: gem, title: "React Api", desc: "La aplicación simula funciones de Gemini...", git: "https://github.com/luismagnum/gemini", deploy: "https://luismagnum.github.io/gemini/" },
-    { img: dulc, title: "React Nextjs", desc: "Sitio web construido con React y Nextjs...", git: "https://github.com/luismagnum/dulces", deploy: "https://dulces-wnyp.vercel.app" },
+    { img: curso, title: "React Nextjs", desc: "Sitio web construido con React y Nextjs...", git: "https://github.com/luismagnum/cursos", deploy: "https://cursos-nine-lac.vercel.app/" },
     { img: sab, title: "React Tailwindcss", desc: "Un ecommerce para venta de comida rápida...", git: "https://github.com/luismagnum/reactnav", deploy: "https://luismagnum.github.io/reactnav/" },
     { img: speed, title: "Landing Page", desc: "Landing page para atraer más clientes...", git: "https://github.com/luismagnum/website", deploy: "https://luismagnum.github.io/website/" },
     { img: deliver, title: "Astro Tailwindcss", desc: "Landing page para delivery de comida...", git: "https://github.com/luismagnum/delivery", deploy: "https://spontaneous-sunshine-99ff47.netlify.app/" },
