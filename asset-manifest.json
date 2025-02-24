@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.34022e11.css",
-    "main.js": "/portafolio/static/js/main.b86626fe.js",
+    "main.js": "/portafolio/static/js/main.3731bd3a.js",
     "reactPlayerPreview.js": "/portafolio/static/js/reactPlayerPreview.0bd7bb97.chunk.js",
     "static/media/cursos.png": "/portafolio/static/media/cursos.00503098fd836fb4c0b5.png",
-    "static/media/speed.png": "/portafolio/static/media/speed.5ff1f1daf6cebfd52303.png",
     "static/media/sabor.png": "/portafolio/static/media/sabor.4ac267f76b853e24fe4b.png",
+    "static/media/zullynew.png": "/portafolio/static/media/zullynew.ddf4c65cff66d07c9d27.png",
     "static/media/deliver.png": "/portafolio/static/media/deliver.e9a415122084319385e6.png",
     "static/media/fotosin.png": "/portafolio/static/media/fotosin.8d28c27f50dabd1c8be2.png",
     "static/media/movie.png": "/portafolio/static/media/movie.dfb77fc35283db4bb0ca.png",
@@ -27,11 +27,11 @@
     "static/media/javasc.svg": "/portafolio/static/media/javasc.eb9d2cb6a3b49394e8e20873cb00479e.svg",
     "static/media/linke.svg": "/portafolio/static/media/linke.9de6ddda1cea637a841ef3b7885ed49a.svg",
     "main.34022e11.css.map": "/portafolio/static/css/main.34022e11.css.map",
-    "main.b86626fe.js.map": "/portafolio/static/js/main.b86626fe.js.map",
+    "main.3731bd3a.js.map": "/portafolio/static/js/main.3731bd3a.js.map",
     "reactPlayerPreview.0bd7bb97.chunk.js.map": "/portafolio/static/js/reactPlayerPreview.0bd7bb97.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.34022e11.css",
-    "static/js/main.b86626fe.js"
+    "static/js/main.3731bd3a.js"
   ]
 }
