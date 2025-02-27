@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.34022e11.css",
-    "main.js": "/portafolio/static/js/main.3731bd3a.js",
+    "main.js": "/portafolio/static/js/main.ca2530a9.js",
     "reactPlayerPreview.js": "/portafolio/static/js/reactPlayerPreview.0bd7bb97.chunk.js",
     "static/media/cursos.png": "/portafolio/static/media/cursos.00503098fd836fb4c0b5.png",
     "static/media/sabor.png": "/portafolio/static/media/sabor.4ac267f76b853e24fe4b.png",
@@ -27,11 +27,11 @@
     "static/media/javasc.svg": "/portafolio/static/media/javasc.eb9d2cb6a3b49394e8e20873cb00479e.svg",
     "static/media/linke.svg": "/portafolio/static/media/linke.9de6ddda1cea637a841ef3b7885ed49a.svg",
     "main.34022e11.css.map": "/portafolio/static/css/main.34022e11.css.map",
-    "main.3731bd3a.js.map": "/portafolio/static/js/main.3731bd3a.js.map",
+    "main.ca2530a9.js.map": "/portafolio/static/js/main.ca2530a9.js.map",
     "reactPlayerPreview.0bd7bb97.chunk.js.map": "/portafolio/static/js/reactPlayerPreview.0bd7bb97.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.34022e11.css",
-    "static/js/main.3731bd3a.js"
+    "static/js/main.ca2530a9.js"
   ]
 }
